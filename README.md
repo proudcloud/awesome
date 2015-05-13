@@ -14,7 +14,7 @@ To add a link, add an item on top (newest first).
 
 ## JavaScript
 
-- tbd
+- [ES6 Features](git.io/es6features) (git.io)
 
 ## Ruby
 
