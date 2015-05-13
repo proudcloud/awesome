@@ -6,7 +6,7 @@ A list of things to prefer and avoid in projects.
 
 In general:
 
-- Prefer [rspec](https://github.com/rspec/rspec) for testing
+- Prefer [rspec](https://github.com/rspec/rspec) for testing with the `expect().to` syntax
 - Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
 
 CSS and JS:
