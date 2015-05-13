@@ -8,6 +8,7 @@ In general:
 
 - Prefer [rspec](https://github.com/rspec/rspec) for testing with the `expect().to` syntax
 - Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
+- Prefer to commit your `config/*.yml` files, except database.yml (private repos only!)
 
 CSS and JS:
 
