@@ -53,6 +53,7 @@ Avoid:
 - Prefer .scss (nested) syntax over .sass (indented), since most projects use that
 - Prefer to make new components rather to extend/override Bootstrap components
 - Prefer to break CSS into multiple files and use `@import 'components/*'` ([info](https://github.com/rstacruz/rscss#one-component-per-file))
+- Prefer to start a styleguide as early on in the project
 
 ## JavaScript
 
