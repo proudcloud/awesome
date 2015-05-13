@@ -12,6 +12,7 @@ A list of things to prefer and avoid in projects.
 - Prefer [rspec](https://github.com/rspec/rspec) for testing
 - Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
 - Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
+- Prefer [bower-rails](https://rubygems.org/gems/bower-rails) for managing 3rd-party JS
 
 Avoid:
 
