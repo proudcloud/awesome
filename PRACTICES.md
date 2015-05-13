@@ -4,8 +4,6 @@ A list of things to prefer and avoid in projects.
 
 ### Rails
 
-Prefer:
-
 - Prefer [sass-rails](https://github.com/rails/sass-rails) as a preprocessor
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
