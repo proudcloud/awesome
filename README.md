@@ -21,7 +21,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Ruby
 
-- tbd
+- [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
 
 ## Miscellaneous
 
