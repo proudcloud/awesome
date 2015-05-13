@@ -24,6 +24,7 @@ Avoid:
 
 - Prefer [Sketch](http://bohemiancoding.com/sketch/) for UI design
 - Prefer [ionicons](http://ionicons.com/) for UI icons (instead of FontAwesome)
+- Prefer [Styledown](https://github.com/styledown/styledown) for making a Living Styleguide
 
 ## Git
 
