@@ -48,6 +48,12 @@ Avoid:
 
 - Avoid `production` branches, they're usually redundant
 
+## Sass
+
+- Prefer .scss (nested) syntax over .sass (indented), since most projects use that
+- Prefer to make new components rather to extend/override Bootstrap components
+- Prefer to break CSS into multiple files and use `@import 'components/*'` ([info](https://github.com/rstacruz/rscss#one-component-per-file))
+
 ## JavaScript
 
 - Prefer [babel](http://babeljs.io/) as a preprocessor. For rails, use [sprockets-es6](https://rubygems.org/gems/sprockets-es6)
