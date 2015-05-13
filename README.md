@@ -23,6 +23,10 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
 
+## iOS
+
+- [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
+
 ## Miscellaneous
 
 - tbd
