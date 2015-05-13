@@ -30,3 +30,9 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 ## Miscellaneous
 
 - tbd
+
+## Practices
+
+- Prefer to use [sass-rails](https://github.com/rails/sass-rails) because it has better features for globbing and caching. Avoid less-rails.
+- Prefer to use Bootstrap if the project calls for a CSS framework. Use the [bootstrap-sass](https://github.com/twbs/bootstrap-sass) gem.
+- Prefer to use [rspec](http://rspec.info/) over cucumber. Cucumber features for integration testing get complicated easily.
