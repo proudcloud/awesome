@@ -9,6 +9,7 @@ A list of things to prefer and avoid in projects.
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
 - Prefer [rspec](https://github.com/rspec/rspec) for testing
+- Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
 
 Avoid:
 
