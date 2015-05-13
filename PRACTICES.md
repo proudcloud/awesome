@@ -29,7 +29,7 @@ Avoid:
 - Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support import globbing
 - Avoid [cucumber](https://github.com/cucumber/cucumber). Integration tests get messy fast
 - Avoid [compass](http://compass-style.org/) unless necessary. Use autoprefixer instead
-- Avoid [coffeescript](http://coffeescript.org/). Prefer to use [es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
+- Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
 
 ## Design
 
@@ -47,3 +47,11 @@ Avoid:
 Avoid:
 
 - Avoid `production` branches, they're usually redundant
+
+## JavaScript
+
+- Prefer [babel](http://babeljs.io/) as a preprocessor. For rails, use [sprockets-es6](https://rubygems.org/gems/sprockets-es6)
+
+Avoid:
+
+- Avoid [coffeescript](http://coffeescript.org/). See above
