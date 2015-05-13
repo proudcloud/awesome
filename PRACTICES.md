@@ -5,6 +5,7 @@ A list of things to prefer and avoid in projects.
 ## Rails
 
 - Prefer [sass-rails](https://github.com/rails/sass-rails) as a preprocessor
+- Prefer [haml](http://haml.info/) for templating
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
 - Prefer [rspec](https://github.com/rspec/rspec) for testing
