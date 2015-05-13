@@ -22,6 +22,7 @@ Avoid:
 ## Design
 
 - Prefer [Sketch](http://bohemiancoding.com/sketch/) for UI design
+- Prefer [ionicons](http://ionicons.com/) for UI icons (instead of FontAwesome)
 
 ## Git
 
