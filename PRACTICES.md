@@ -4,15 +4,25 @@ A list of things to prefer and avoid in projects.
 
 ## Rails
 
+In general:
+
+- Prefer [rspec](https://github.com/rspec/rspec) for testing
+- Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
+
+CSS and JS:
+
 - Prefer [sass-rails](https://github.com/rails/sass-rails) as a preprocessor
 - Prefer [autoprefixer-rails](https://github.com/ai/autoprefixer-rails) for vendor prefixes
 - Prefer [haml](http://haml.info/) for templating
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
-- Prefer [rspec](https://github.com/rspec/rspec) for testing
-- Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
-- Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
 - Prefer [bower-rails](https://rubygems.org/gems/bower-rails) for managing 3rd-party JS
+- Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
+
+Emails:
+
+- Prefer [letter_opener](https://rubygems.org/gems/letter_opener) for locally testing emails
+- Prefer [premailer-rails](https://rubygems.org/gems/premailer-rails) for managing inline email CSS
 
 Avoid:
 
