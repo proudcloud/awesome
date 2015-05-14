@@ -40,9 +40,11 @@ Avoid:
 - Prefer [ionicons](http://ionicons.com/) for UI icons (instead of FontAwesome)
 - Prefer [Styledown](https://github.com/styledown/styledown) for making a Living Styleguide
 
-## Git
+## Git and GitHub
 
-- Prefer [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/) - use `feature/` branches
+- Prefer [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+- Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes
+- Use the tag `review` for "done" PR's awaiting code review
 - Prefer `develop` branch for development
 - Prefer `master` branch for deployments
 - Prefer to tag releases if possible
