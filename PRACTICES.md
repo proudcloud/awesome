@@ -42,16 +42,22 @@ Avoid:
 
 ## Git and GitHub
 
-- Prefer [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/)
-- Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes
-- Use the tag `review` for "done" PR's awaiting code review
-- Prefer `develop` branch for development
-- Prefer `master` branch for deployments
-- Prefer to tag releases if possible
+- Send pull requests for code review. Tag it with `review` when you're done
+- Add screenshots to your pull requests ([example](https://github.com/proudcloud/crowd-funding/pull/371))
+
+Branching:
+
+- Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes (see [git-flow])
+- Use the `develop` branch for development
+- Use the `master` branch for deployable versions
+- Make sure `develop` is always passing CI tests
+- Make sure `master` is always at a deployable state
 
 Avoid:
 
-- Avoid `production` branches, they're usually redundant
+- Avoid `production` branches, they're usually the same as master
+
+[git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 
 ## Sass
 
