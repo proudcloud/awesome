@@ -27,7 +27,7 @@ Emails:
 
 Avoid:
 
-- Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support import globbing
+- Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support [import globbing](https://github.com/less/less.js/issues/1181)
 - Avoid [cucumber](https://github.com/cucumber/cucumber). Integration tests get messy fast
 - Avoid [compass](http://compass-style.org/) unless necessary. Use autoprefixer instead
 - Avoid [bootstrap-on-rails](https://github.com/jasontorres/bootstrap-on-rails) because it's .less and not currently maintained
