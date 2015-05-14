@@ -8,6 +8,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 #### Articles and Videos
 
+- [Photoshop Etiquette](http://www.photoshopetiquette.com/)
 - [Facebook Visual Identity](http://officeofbenbarry.com/see/facebook-visual-identity) - insight on branding process
 - [Aaron Draplin on Logo Design](https://vimeo.com/113751583) - on logo design iterations
 - [Reasonable Standard for CSS Stylesheet Structure](https://github.com/rstacruz/rscss)
