@@ -40,7 +40,9 @@ Avoid:
 - Prefer [ionicons](http://ionicons.com/) for UI icons (instead of FontAwesome)
 - Prefer [Styledown](https://github.com/styledown/styledown) for making a Living Styleguide
 
-## Git and GitHub
+## Git
+
+Using GitHub:
 
 - Send pull requests for code review. Tag it with `review` when you're done
 - Add screenshots to your pull requests ([example](https://github.com/proudcloud/crowd-funding/pull/371))
