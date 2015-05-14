@@ -1,6 +1,6 @@
 # Development practices
 
-A list of things to prefer and avoid in projects.
+This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many Proudcloud projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
 ## Rails
 
