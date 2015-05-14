@@ -17,7 +17,7 @@ CSS and JS:
 - Prefer [haml](http://haml.info/) for templating
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
-- Prefer [bower-rails](https://rubygems.org/gems/bower-rails) for managing 3rd-party JS
+- Prefer [rails-assets.org](https://rails-assets.org) for managing 3rd-party JS/CSS
 - Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
 
 Emails:
@@ -33,6 +33,7 @@ Avoid:
 - Avoid [bootstrap-on-rails](https://github.com/jasontorres/bootstrap-on-rails) because it's .less and not currently maintained
 - Avoid [twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails) because it's .less and has too many abstractions
 - Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
+- Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 
 ## Design
 
