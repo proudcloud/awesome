@@ -20,6 +20,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [JavaScript and JQuery: Interactive Front-End Web Development ](http://javascriptbook.com/) by Jon Duckett
 - [Steal Like An Artist](http://austinkleon.com/steal/) by Austin Kleon
 - [Design as Art](http://www.amazon.com/Design-as-Art-Bruno-Munari/dp/0141035811) by Bruno Munari
+- [Professional Web Typography](https://prowebtype.com) by Donny Truong
 
 #### Repos
 - [Web Design Repo](http://www.webdesignrepo.com/)
