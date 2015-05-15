@@ -31,6 +31,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## JavaScript
 
+- [Airbnb JavaScript style guide](https://github.com/airbnb/javascript)
 - [ES6 Features](git.io/es6features)
 
 ## Ruby
