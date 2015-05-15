@@ -29,7 +29,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Design Leaks](http://designleaks.net/)
 - [Psddd](http://psddd.co/)
 - [Method & Craft](http://methodandcraft.com/)
-
+- [Makerbook](http://makerbook.net/)
 ## JavaScript
 
 - [Airbnb JavaScript style guide](https://github.com/airbnb/javascript)
