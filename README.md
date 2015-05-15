@@ -46,4 +46,4 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Miscellaneous
 
-- tbd
+- [Panda (App, Chrome Extension)](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
