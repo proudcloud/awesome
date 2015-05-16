@@ -78,6 +78,33 @@ Using GitHub:
 - Long running PRs are welcome. Always get your branches checked against the main branch (usually `develop`)
 - Get your PRs updated. Rebase on top of the latest `develop` branch.
 
+Git:
+
+- Always commit. Small commits are acceptable.
+- Make your commits contextual. Avoid
+- Commit messages that makes sense. Usually in this pattern: `"{action} {purpose|reason} {target}"`, order may vary. 
+Avoid:
+  ```
+    1) "Adds price validation"
+    2) "Refactors the decorator"
+    3) "Fixes bug"
+    4) "Hotfix for the form bug"
+  ```
+
+Ideal:
+  ```
+    1) "Adds price validation to Product"
+    2) "Refactors product.total_price decorator"
+    3) "Fixes permitted params bug on orders#create"
+    4) "Hotfix for the product form's price input bug"
+  ```
+
+[Here's an example of good PR and commit](https://github.com/proudcloud/crowd-funding/pull/371)
+
+- Target as the most important as without it `"Adds price validation"` or `"Refactors"` doesn't actually make sense if people review the project commit history.
+
+Avoid
+
 Branching:
 
 - Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes (see [git-flow])
