@@ -2,6 +2,14 @@
 
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many Proudcloud projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
+
+## Starting a new project:
+
+- Create and update the project's README.md
+- Add proper installation instructions. Notes and caveats.
+- Github Slack Channel Integration. The amount of notifications you want to receive depends on you. Usually, we get notified with new Pull Requests and Comments only.
+- Continuous Integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
+
 ## Rails
 
 In general:
