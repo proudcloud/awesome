@@ -5,6 +5,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 
 ## Starting a new project:
 
+- Create a Github repo and make the default branch to `develop`.
 - Create and update the project's README.md
 - Add proper installation instructions. Notes and caveats.
 - Github Slack Channel Integration. The amount of notifications you want to receive depends on you. Usually, we get notified with new Pull Requests and Comments only.
