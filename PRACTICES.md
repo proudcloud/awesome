@@ -10,6 +10,13 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Github Slack Channel Integration. The amount of notifications you want to receive depends on you. Usually, we get notified with new Pull Requests and Comments only.
 - Continuous Integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
 
+## For ongoing projects:
+
+- Keep README.md updated (always assume a new team member will join anytime)
+- Ensure db:migrate runs properly
+- Ensure db:seed runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
+- Ensure painless turnovers
+
 ## Rails
 
 In general:
