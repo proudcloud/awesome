@@ -81,7 +81,7 @@ Using GitHub:
 Git:
 
 - Always commit. Small commits are acceptable.
-- Make your commits contextual. Avoid
+- Make your commits contextual. Avoid commits that does other things that the commit was intended to.
 - Commit messages that makes sense. Usually in this pattern: `"{action} {purpose|reason} {target}"`, order may vary. 
 Avoid:
   ```
