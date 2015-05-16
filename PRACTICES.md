@@ -73,7 +73,9 @@ Avoid:
 Using GitHub:
 
 - Send pull requests for code review. Tag it with `review` when you're done
-- Add screenshots to your pull requests ([example](https://github.com/proudcloud/crowd-funding/pull/371))
+- Be overly communicative about your pull requests. Best practice is to add screenshots to your pull requests ([example](https://github.com/proudcloud/crowd-funding/pull/371)) for your reviewer's convenience.
+- Long running PRs are welcome. Always get your branches checked against the main branch (usually `develop`)
+- Get your PRs updated. Rebase on top of the latest `develop` branch.
 
 Branching:
 
