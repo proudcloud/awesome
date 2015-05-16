@@ -36,12 +36,24 @@ Emails:
 Avoid:
 
 - Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support [import globbing](https://github.com/less/less.js/issues/1181)
-- Avoid [cucumber](https://github.com/cucumber/cucumber). Integration tests get messy fast
 - Avoid [compass](http://compass-style.org/) unless necessary. Use autoprefixer instead
 - Avoid [bootstrap-on-rails](https://github.com/jasontorres/bootstrap-on-rails) because it's .less and not currently maintained
 - Avoid [twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails) because it's .less and has too many abstractions
 - Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
+
+## Testing:
+
+- Prefer [rspec & rspec-rails](http://rspec.info/) as the testing framework
+- Prefer [capybara with rspec](https://github.com/jnicklas/capybara#using-capybara-with-rspec) for acceptance tests
+- Prefer [factory-girl-rails](https://github.com/thoughtbot/factory_girl) for test data requirements
+- Ensure sensible and updated factories
+- Ensure passing tests
+
+Avoid:
+
+- Avoid [cucumber](https://github.com/cucumber/cucumber). Integration tests get messy fast
+- Avoid `shoulda` and the `should` syntax
 
 ## Design
 
