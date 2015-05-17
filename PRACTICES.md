@@ -21,9 +21,10 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 ## Work Principles
 
 - Better to ask forgiveness than permission
-- Respect your team and individiual schedules
+- Respect your team and individual schedules
 - Always work on targeted release versions or milestones. We use `alpha`, `beta` for early stage projects. Moving forward, practice the use of [Semantic Versioning](http://semver.org).
-- Work will never run out. Focus on approximately 2 weeks worth of targets only.
+- Be aware of the product roadmap.
+- Work will never run out. Focus on approximately 2 weeks (1 sprint) worth of targets only. Close a version release. Repeat the cycle.
 - Conserve energy. Do not overwork yourselves.
 - Code clarity. Readable code.
 - Consistency with team practices but feel free to discuss improvements.
