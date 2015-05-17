@@ -3,7 +3,7 @@
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many Proudcloud projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
 
-## Starting a new project:
+## Starting a new project
 
 - Create a Github repo and make the default branch to `develop`.
 - Create and update the project's README.md
@@ -11,12 +11,26 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Github Slack Channel Integration. The amount of notifications you want to receive depends on you. Usually, we get notified with new Pull Requests and Comments only.
 - Continuous Integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
 
-## For ongoing projects:
+## For ongoing projects
 
 - Keep README.md updated (always assume a new team member will join anytime)
 - Ensure db:migrate runs properly
 - Ensure db:seed runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
 - Ensure painless turnovers
+
+## Work Principles
+
+- Better to ask forgiveness than permission
+- Respect your team and individiual schedules
+- Always work on targeted release versions or milestones. We use `alpha`, `beta` for early stage projects. Moving forward, practice the use of [Semantic Versioning](http://semver.org)
+- Code clarity. Readable code.
+- Consistency with team practices but feel free to discuss improvements.
+- Consistency but correct and raise what you feel is wrong.
+- Do your best not to be a blocker to your teammates.
+- Got a problem? Ask on Slack.
+
+Code:
+- Make use of special ANNOTATIONS like # TODO:, FIXME:, OPTIMIZE: so rake notes can pick it up.
 
 ## Rails
 
