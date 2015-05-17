@@ -117,6 +117,7 @@ Ideal:
 [Here's an example of a good PR and commit](https://github.com/proudcloud/crowd-funding/pull/371)
 
 - Target as the most important as without it `"Fixes bug"`, `"Adds price validation"` or `"Refactors"` doesn't actually make sense if people review the project commit history.
+- Always delete `merged`, `stale`, `outdated` branches. Ang past ay para sa mga bitter lamang. Wag clingy.
 
 Branching:
 
