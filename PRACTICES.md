@@ -8,8 +8,8 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Create a Github repo and make the default branch to `develop`.
 - Create and update the project's README.md
 - Add proper installation instructions. Notes and caveats.
-- Github Slack Channel Integration. The amount of notifications you want to receive depends on you. Usually, we get notified with new Pull Requests and Comments only.
-- Continuous Integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
+- Github Slack channel integration. The amount of notifications you want to receive depends on you. Usually, we like to get notified with new pull requests and comments only.
+- Continuous integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or a collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
 
 ## For ongoing projects
 
@@ -96,7 +96,8 @@ Git:
 
 - Always commit. Small commits are acceptable.
 - Make your commits contextual. Avoid commits that does other things that the commit was intended to.
-- Commit messages that makes sense. Usually in this pattern: `"{action} {purpose|reason} {target}"`, order may vary. 
+- Commit messages that makes sense. Usually in this pattern: `"{action} {purpose|reason} {target}"`, order may vary.
+
 Avoid:
   ```
     1) "Adds price validation"
@@ -113,11 +114,9 @@ Ideal:
     4) "Hotfix for the product form's price input bug"
   ```
 
-[Here's an example of good PR and commit](https://github.com/proudcloud/crowd-funding/pull/371)
+[Here's an example of a good PR and commit](https://github.com/proudcloud/crowd-funding/pull/371)
 
-- Target as the most important as without it `"Adds price validation"` or `"Refactors"` doesn't actually make sense if people review the project commit history.
-
-Avoid
+- Target as the most important as without it `"Fixes bug"`, `"Adds price validation"` or `"Refactors"` doesn't actually make sense if people review the project commit history.
 
 Branching:
 
