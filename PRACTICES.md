@@ -22,7 +22,9 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 
 - Better to ask forgiveness than permission
 - Respect your team and individiual schedules
-- Always work on targeted release versions or milestones. We use `alpha`, `beta` for early stage projects. Moving forward, practice the use of [Semantic Versioning](http://semver.org)
+- Always work on targeted release versions or milestones. We use `alpha`, `beta` for early stage projects. Moving forward, practice the use of [Semantic Versioning](http://semver.org).
+- Work will never run out. Focus on approximately 2 weeks worth of targets only.
+- Conserve energy. Do not overwork yourselves.
 - Code clarity. Readable code.
 - Consistency with team practices but feel free to discuss improvements.
 - Consistency but correct and raise what you feel is wrong.
