@@ -6,7 +6,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 ## Starting a new project
 
 - Create a Github repo and make the default branch to `develop`.
-- Create and update the project's README.md
+- Create and update the project's `README.md`
 - Add proper installation instructions. Notes and caveats.
 - Github Slack channel integration. The amount of notifications you want to receive depends on you. Usually, we like to get notified with new pull requests and comments only.
 - Continuous integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or a collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
@@ -14,8 +14,9 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 ## For ongoing projects
 
 - Keep README.md updated (always assume a new team member will join anytime)
-- Ensure db:migrate runs properly
-- Ensure db:seed runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
+- Ensure `db:migrate` runs properly
+- Ensure `db:rollback` runs properly
+- Ensure `db:seed` runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
 - Ensure painless turnovers
 
 ## Work Principles
@@ -33,15 +34,14 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Got a problem? Ask on Slack.
 
 Code:
-- Make use of special ANNOTATIONS like # TODO:, FIXME:, OPTIMIZE: so rake notes can pick it up.
+- Make use of special Rails ANNOTATIONS like `TODO`, `FIXME`, and `OPTIMIZE` so rake notes can pick it up.
 
 ## Rails
 
 In general:
 
 - Prefer [rspec](https://github.com/rspec/rspec) for testing with the `expect().to` syntax
-- Prefer [figaro](https://rubygems.org/gems/figaro) for 12-factor style app configuration
-- Prefer to commit your `config/*.yml` files, except database.yml (private repos only!)
+- Prefer to commit your `config/*.yml` files, except database.yml (_PRIVATE_ _REPOS_ _ONLY!_)
 
 CSS and JS:
 
@@ -74,6 +74,7 @@ Avoid:
 - Prefer [factory-girl-rails](https://github.com/thoughtbot/factory_girl) for test data requirements
 - Ensure sensible and updated factories
 - Ensure passing tests
+- Prefer the `expect` syntax
 
 Avoid:
 
@@ -94,6 +95,7 @@ Using GitHub:
 - Be overly communicative about your pull requests. Best practice is to add screenshots to your pull requests ([example](https://github.com/proudcloud/crowd-funding/pull/371)) for your reviewer's convenience.
 - Long running PRs are welcome. Always get your branches checked against the main branch (usually `develop`)
 - Get your PRs updated. Rebase on top of the latest `develop` branch.
+- If your PR references a Github Issue, make sure to mention it in your PR's description using [this format ](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
 Git:
 
@@ -138,7 +140,7 @@ Avoid:
 
 ## Sass
 
-- Prefer .scss (nested) syntax over .sass (indented), since most projects use that
+- Prefer `.scss` (nested) syntax over .sass (indented), since most projects use that
 - Enable [CSS antialiasing](http://ricostacruz.com/cheatsheets/css-antialias) globally
 - Prefer to make new components rather to extend/override Bootstrap components
 - Prefer to break CSS into multiple files and use `@import 'components/*'` ([info](https://github.com/rstacruz/rscss#one-component-per-file))
@@ -156,5 +158,5 @@ Avoid:
 ## iOS
 
 - Follow the [Ray Wenderlich Styleguide](https://github.com/raywenderlich/swift-style-guide) except using 2 spaces as indentation. We'll use 4 spaces as recommended by Apple.
-- Prefer [realm.io](http://realm.io) over CoreData. Realm.io
+- Prefer [realm.io](http://realm.io) over CoreData.
 - Use CocoaPods whenever available. When you need a library/plugin, check [Cocoa Controls](https://www.cocoacontrols.com/) first before trying to do it yourself.
