@@ -56,6 +56,12 @@ Rake tasks:
 - Ensure `db:seed` runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
 - Ensure painless turnovers
 
+Configuration:
+
+- Use `config/secrets.yml` to store config
+- Use 12-factor style when overrides are needed: `pusher_id: <%= ENV['PUSHER_ID'] || '...' %>`
+- Access them in your app via `Rails.application.secrets.pusher_id`
+
 Avoid:
 
 - Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support [import globbing](https://github.com/less/less.js/issues/1181)
@@ -64,6 +70,7 @@ Avoid:
 - Avoid [twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails) because it's .less and has too many abstractions
 - Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
+- Avoid configuration gems like [figaro](http://rubygems.org/gems/figaro), [dotenv](http://rubygems.org/gems/dotenv), etc. Rails 4.1 should render them useless now.
 
 ## Testing
 
