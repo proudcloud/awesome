@@ -25,14 +25,6 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Github Slack channel integration. The amount of notifications you want to receive depends on you. Usually, we like to get notified with new pull requests and comments only.
 - Continuous integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or a collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
 
-## For ongoing projects
-
-- Keep README.md updated (always assume a new team member will join anytime)
-- Ensure `db:migrate` runs properly
-- Ensure `db:rollback` runs properly
-- Ensure `db:seed` runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
-- Ensure painless turnovers
-
 ## Rails
 
 In general:
@@ -40,6 +32,7 @@ In general:
 - Prefer [rspec](https://github.com/rspec/rspec) for testing with the `expect().to` syntax
 - Prefer to commit your `config/*.yml` files, except database.yml (_PRIVATE_ _REPOS_ _ONLY!_)
 - Make use of special Rails ANNOTATIONS like `TODO`, `FIXME`, and `OPTIMIZE` so rake notes can pick it up.
+- Keep README.md updated (always assume a new team member will join anytime)
 
 CSS and JS:
 
@@ -56,6 +49,13 @@ Emails:
 - Prefer [letter_opener](https://rubygems.org/gems/letter_opener) for locally testing emails
 - Prefer [premailer-rails](https://rubygems.org/gems/premailer-rails) for managing inline email CSS
 
+Rake tasks:
+
+- Ensure `db:migrate` runs properly
+- Ensure `db:rollback` runs properly
+- Ensure `db:seed` runs properly (They get outdated fast!). Alternatively, provide a way to seed a newcomer's project.
+- Ensure painless turnovers
+
 Avoid:
 
 - Avoid [less-rails](https://github.com/metaskills/less-rails/). Slow to update, and doesn't support [import globbing](https://github.com/less/less.js/issues/1181)
@@ -65,7 +65,7 @@ Avoid:
 - Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 
-## Testing:
+## Testing
 
 - Prefer [rspec & rspec-rails](http://rspec.info/) as the testing framework
 - Prefer [capybara with rspec](https://github.com/jnicklas/capybara#using-capybara-with-rspec) for acceptance tests
