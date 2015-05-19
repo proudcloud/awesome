@@ -47,13 +47,13 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
 
 ## Coding
-- [Pragmatic Programmer](https://www.dropbox.com/s/b7kjqle1wbmddsm/The%20Pragmatic%20Programmer.pdf?dl=0)
-- [Clean Coder](https://www.dropbox.com/s/2xgiipr35knwh7y/Prentice.Hall.The.Clean.Coder.May.2011.pdf?dl=0)
-- [Programmers Rantings](http://www.amazon.com/Programmers-Rantings-Programming-Language-Religions-Philosophies-ebook/dp/B00AGXSIXW)
+- Pragmatic Programmer
+- Clean Coder
+- Programmers Rantings(http://www.amazon.com/Programmers-Rantings-Programming-Language-Religions-Philosophies-ebook/dp/B00AGXSIXW)
 
 ## Life
-- [Personal MBA](https://www.dropbox.com/s/z8nc1pev2d4tn2y/eBook_The%20Personal%20MBA_Josh%20Kaufman.pdf?dl=0)
-- [Rich Dad, Poor Dad](http://4motivi.com/books/robert/rich.pdf)
+- Personal MBA
+- Rich Dad, Poor Dad
 
 ## iOS
 
