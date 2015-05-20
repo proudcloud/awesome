@@ -52,6 +52,11 @@ Push to Heroku
 ```
 $ git push heroku master
 ```
+
+Open your app deployed from Heroku
+```
+$ heroku open
+```
 **<DONE>**
 
 
