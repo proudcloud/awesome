@@ -36,9 +36,14 @@ Set static asset serving at `config/application.rb`
 ```
 config.serve_static_assets = true
 ```
-Environment-specific configurations, like that from application.yml or anything that is accessed with `ENV[__]` are set via `heroku config:set`
+It is expected that credentials/keys are set in your `secrets.yml`(which is included in the repo), just make sure the these are appropriately set within `production: ` block as well
 ```
-$ heroku config:set PUSHER_APP_ID=324213412342 PUSHER_APP_SECRET=lkjh34k234234j2l3h
+production:
+  secret_key_base: 320f4772bb7e84f94f83b05a1e220d6b18c3053e4d601224efbda34434a79183e0f721a7b12c0ae89a91b9eaba092ceba8f145ddb4fd46dc9016fed6202e5a41
+  ...
+development:
+  secret_key_base: 769579477b78657f832f260b62151d8955b3f3bcdd054cc287d17fe0c75a7524f0d8a07c733c55acbe72e1ce8821e1ef11739a14e525a8443129d26742a10f1f
+  ...
 ```
 Set DB-related configurations differ depending on the DB you are using. If you're on `PostgreSQL`, a simple `heroku run rake db:migrate` will do.
 
