@@ -29,7 +29,6 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 
 In general:
 
-- Prefer [rspec](https://github.com/rspec/rspec) for testing with the `expect().to` syntax
 - Prefer to commit your `config/*.yml` files, except database.yml (_PRIVATE_ _REPOS_ _ONLY!_)
 - Make use of special Rails ANNOTATIONS like `TODO`, `FIXME`, and `OPTIMIZE` so rake notes can pick it up.
 - Keep README.md updated (always assume a new team member will join anytime)
@@ -72,20 +71,6 @@ Avoid:
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 - Avoid configuration gems like [figaro](http://rubygems.org/gems/figaro), [dotenv](http://rubygems.org/gems/dotenv), etc. Rails 4.1 should render them useless now.
 
-## Testing
-
-- Prefer [rspec & rspec-rails](http://rspec.info/) as the testing framework
-- Prefer [capybara with rspec](https://github.com/jnicklas/capybara#using-capybara-with-rspec) for acceptance tests
-- Prefer [factory-girl-rails](https://github.com/thoughtbot/factory_girl) for test data requirements
-- Ensure sensible and updated factories
-- Ensure passing tests
-- Prefer the `expect` syntax
-
-Avoid:
-
-- Avoid [cucumber](https://github.com/cucumber/cucumber). Integration tests get messy fast
-- Avoid `shoulda` and the `should` syntax
-
 ## Sass
 
 - Prefer `.scss` (nested) syntax over .sass (indented), since most projects use that
@@ -116,3 +101,7 @@ See **[Design practices](PRACTICES-Design.md).**
 ## Git
 
 See **[Git practices](PRACTICES-Git.md).**
+
+## Testing
+
+See **[Testing practices](PRACTICES-Testing.md).**
