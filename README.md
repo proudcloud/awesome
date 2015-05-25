@@ -22,6 +22,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 #### Books
 
+- [Web UI Design Best Practices](http://www.uxpin.com/web-ui-design-best-practices.html) by UXPin (free)
 - [In Progress](http://www.amazon.com/Progress-Lettering-Artists-Sketchbook-Process-ebook/dp/B00WYJCIB4/ref=sr_1_1?s=books&ie=UTF8&qid=1431501090&sr=1-1&keywords=in+progress+jessica+hische) by Jessica Hische
 - [HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/) by Jon Duckett
 - [JavaScript and JQuery: Interactive Front-End Web Development ](http://javascriptbook.com/) by Jon Duckett
