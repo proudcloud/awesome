@@ -78,6 +78,10 @@ Or, if you don't want/need launchctl, you can just run
 ```
 $ postgres -D /usr/local/var/postgres
 ```
+You can check back this info by
+```
+$ brew info postgresql
+```
 
 #### Install MongoDB
 $ brew install mongodb
