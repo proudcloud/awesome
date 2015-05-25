@@ -14,6 +14,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 #### Articles and Videos
 
+- [Optical Adjustment](https://medium.com/@lukejonesme/optical-adjustment-b55492a1165c)
 - [Free Books for Web Design 2014](http://speckyboy.com/2015/01/12/free-web-design-ebooks-2014/)
 - [Photoshop Etiquette](http://www.photoshopetiquette.com/)
 - [Facebook Visual Identity](http://officeofbenbarry.com/see/facebook-visual-identity) - insight on branding process
