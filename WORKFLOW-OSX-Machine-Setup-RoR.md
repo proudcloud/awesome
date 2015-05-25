@@ -1,8 +1,21 @@
 # Basic OS X Machine Setup for RoR Development 
 ####Pre-requisites
-1. Update to Yosemite(OSX 10.10)
+1. Update to Yosemite(OSX 10.10) from App Store
 
-2. Install xCode 6.x & xCode Command Line Tools
+2. Install xCode 6.x 
+3. Install xCode Command Line Tools
+```
+$ xcode-select --install
+```
+4. Install Homebrew & update packages
+```
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew update
+```
+5. Verify Homebrew installation
+```
+$ brew doctor
+```
 
 ####Setup Git, Homebrew, RVM, & Default Ruby & Gemset
 Run GCC then confirm appropriate root privileges
@@ -24,11 +37,6 @@ Or copy from existing; create directory
 $ mkdir ~/.ssh
 $ cp ~/Downloads/id_rsa ~/.ssh
 $ cp ~/Downloads/id_rsa.pub ~/.ssh
-```
-Install Homebrew & update packages
-```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ brew update
 ```
 Install RVM and follow additional procedure such as sourcing RVM to profile
 ```
