@@ -3,13 +3,13 @@
 ### Our practices
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many [Proudcloud] projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
-- [General](practices/README.md)
-- [Design](practices/design.md)
-- [Git](practices/git.md)
-- [JavaScript](practices/javascript.md)
-- [Rails](practices/rails.md)
-- [Testing](practices/testing.md)
-- [iOS](practices/ios.md)
+- [General practices](practices/) - ethics, new projects
+- [Design](practices/design.md) - UI design and CSS
+- [Git](practices/git.md) - Git and GitHub
+- [JavaScript](practices/javascript.md) - Frontend and Node.js code
+- [Rails](practices/rails.md) - Makes the world go 'round
+- [Testing](practices/testing.md) - Detailed Rspec and TDD practices
+- [iOS](practices/ios.md) - Xcode Swift development
 
 ----
 
