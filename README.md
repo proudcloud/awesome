@@ -27,6 +27,7 @@ Guides on setting up common development environments.
 - [Heroku](workflow/heroku.md)
 - [Rails on OSX](workflow/rails-osx.md)
 - [iOS](workflow/ios.md)
+- [Rails on Ubuntu 14.04](workflow/rails-ubuntu1404.md)
 
 
 [Proudcloud]: http://proudcloud.net
