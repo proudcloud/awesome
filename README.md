@@ -3,7 +3,7 @@
 ### Our practices
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many [Proudcloud] projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
-- [General](practices/index.md)
+- [General](practices/README.md)
 - [Design](practices/design.md)
 - [Git](practices/git.md)
 - [JavaScript](practices/javascript.md)
@@ -16,7 +16,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 ### Required reading
 Must-read books, articles and must-watch videos for every [Proudcloud] developer.
 
-- [General](readings/index.md)
+- [General](readings/README.md)
   
 ----
 
