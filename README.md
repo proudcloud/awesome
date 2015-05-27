@@ -6,7 +6,10 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - [General](practices/index.md)
 - [Design](practices/design.md)
 - [Git](practices/git.md)
+- [JavaScript](practices/javascript.md)
+- [Rails](practices/rails.md)
 - [Testing](practices/testing.md)
+- [iOS](practices/ios.md)
 
 ## Reading
 Reuired books, articles and videos to watch.
@@ -20,4 +23,3 @@ Guides on setting up common development environments.
 - [Heroku](workflow/heroku.md)
 - [Rails on OSX](workflow/rails-osx.md)
 - [iOS](workflow/ios.md)
-
