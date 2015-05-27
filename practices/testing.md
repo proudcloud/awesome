@@ -233,12 +233,12 @@
 
 ## View specs
 
-- See [Features](PRACTICES-Testing.md#feature-specs).
+- See [Features](#feature-specs).
 
 
 ## Controller specs
 
-- See [Features](PRACTICES-Testing.md#features-specs).
+- See [Features](#features-specs).
 
 
 ## Lib specs
@@ -275,7 +275,7 @@
 
 - Request specs are considered as integration tests. Treat them as such.
 
-- Only use these specs for testing APIs. Use [Features](PRACTICES-Testing.md#feature-specs) for pages.
+- Only use these specs for testing APIs. Use [Features](#feature-specs) for pages.
 
 - Test the body and status in the same example.
   ```ruby
