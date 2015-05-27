@@ -1,4 +1,4 @@
-# Awesome
+# Required reading
 
 This is a curated listing of all must-read resources for the builders of Proudcloud.
 
@@ -8,7 +8,6 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 - [Development Practices](https://github.com/proudcloud/awesome/blob/master/PRACTICES.md). Practices we learned over the years
 - [Workflow - iOS](https://github.com/proudcloud/awesome/blob/master/WORKFLOW-iOS.md)
-
 
 ## Design
 

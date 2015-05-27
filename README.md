@@ -30,3 +30,10 @@ Guides on setting up common development environments.
 
 
 [Proudcloud]: http://proudcloud.net
+
+<br>
+
+----
+
+:copyright: 2015, [Proudcloud]. Released under MIT License.<br>
+Feel free to reuse this list for your own team!
