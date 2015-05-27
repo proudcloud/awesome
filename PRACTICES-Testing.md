@@ -191,18 +191,21 @@
 
 - Skip association tests.
 
-- Test validations and scopes. Presence validation specs are optional.
+- Test validations. Presence validation specs are optional.
   ```ruby
   # Validations
   expect(valid_project.errors.full_messages).to eq []
   expect(invalid_project.errors.full_messages).to include "Video url is not a valid Youtube/Vimeo url"
+  ```
 
+- Test scopes for both inclusion and exclusion.
+  ```ruby
   # Scopes
   expect(Project.published).to include published_project
   expect(Project.published).to_not include unpublished_project
   ```
 
-- Callback testing can be done in a couple of ways.
+- Callbacks testing can be done in a couple of ways.
   ```ruby
   # Assumes an `#ensure_default_role` callback that sets the default role if not provided
 
@@ -230,12 +233,12 @@
 
 ## View specs
 
-- See [Features](#features).
+- See [Features](PRACTICES-Testing.md#features).
 
 
 ## Controller specs
 
-- See [Features](#features).
+- See [Features](PRACTICES-Testing.md#features).
 
 
 ## Lib specs
@@ -272,7 +275,7 @@
 
 - Request specs are considered as integration tests. Treat them as such.
 
-- Only use these specs for testing APIs. Use [Features](#features) for pages.
+- Only use these specs for testing APIs. Use [Features](PRACTICES-Testing.md#features) for pages.
 
 - Test the body and status in the same example.
   ```ruby
