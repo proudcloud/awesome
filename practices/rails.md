@@ -44,16 +44,9 @@ Avoid:
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 - Avoid configuration gems like [figaro](http://rubygems.org/gems/figaro), [dotenv](http://rubygems.org/gems/dotenv), etc. Rails 4.1 should render them useless now.
 
-## Sass
-
-- Prefer `.scss` (nested) syntax over .sass (indented), since most projects use that
-- Enable [CSS antialiasing](http://ricostacruz.com/cheatsheets/css-antialias) globally
-- Prefer to make new components rather to extend/override Bootstrap components
-- Prefer to break CSS into multiple files and use `@import 'components/*'` ([info](https://github.com/rstacruz/rscss#one-component-per-file))
-- Prefer to start a styleguide as early on in the project
-
 ## Also see
 
-- **[JavaScript practices](javascript.md)**
-- **[Testing practices](testing.md)**
-- **[Git practices](git.md)**
+- **[Design practices](design.md#sass)** (covers Sass)
+- **[JavaScript practices](javascript.md)** (covers ES6)
+- **[Testing practices](testing.md)** (covers Rspec)
+- **[Git practices](git.md)** (covers Git and GitHub)
