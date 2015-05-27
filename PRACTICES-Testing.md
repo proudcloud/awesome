@@ -187,27 +187,117 @@
 
 ## Model specs
 
-- `pending`
+- No mocking. Test the actual models.
+
+- Skip association tests.
+
+- Test validations and scopes. Presence validation specs are optional.
+  ```ruby
+  # Validations
+  expect(valid_project.errors.full_messages).to eq []
+  expect(invalid_project.errors.full_messages).to include "Video url is not a valid Youtube/Vimeo url"
+
+  # Scopes
+  expect(Project.published).to include published_project
+  expect(Project.published).to_not include unpublished_project
+  ```
+
+- Callback testing can be done in a couple of ways.
+  ```ruby
+  # Assumes an `#ensure_default_role` callback that sets the default role if not provided
+
+  # You can use a proc
+  user.role = nil
+  expect { user.save }.to change(user, :role).to("default")
+
+  # or test the effect
+  user.role = "admin"
+  user.save
+  expect(user.role).to eq "admin"
+
+  # or test for the just the call
+  expect_any_instance_of(User).to receive(:ensure_default_role)
+  user.save
+
+  # then test the functionality
+  user.nil
+  user.send :ensure_default_role
+  expect(user.role).to eq "default"
+  ```
+
+- `private` method testing can be optional, but only if there is a public method spec that covers it.
+
+
+## View specs
+
+- See [Features](#features).
 
 
 ## Controller specs
 
-- `pending`
+- See [Features](#features).
+
+
+## Lib specs
+
+- Unless you autoloaded the file you're testing, you will need to `require` it.
+
+- Do not require `rails_helper` if you can avoid it. Mock what you can.
 
 
 ## Helper specs
 
-- `pending`
+- RSpec provides a `helper` object so you don't have to include the module in a dummy class to test it.
+  ```ruby
+  expect(helper.image_url_for user).to eq "http://wat.com/img/fifi"
+  ```
 
 
 ## Mailer specs
 
-- `pending`
+- Always mock the models.
+
+- Do not test `#deliver`.
+
+- Test for addresses, subject and attachments.
+  ```ruby
+  expect(mailer.to).to eq recipient.email
+  expect(mailer.from).to eq sender.email
+  expect(mailer.reply_to).to eq sender.reply_to_email
+  expect(mailer.attachments.size).to eq 1
+  ```
 
 
 ## Request specs
 
-- `pending`
+- Request specs are considered as integration tests. Treat them as such.
+
+- Only use these specs for testing APIs. Use [Features](#features) for pages.
+
+- Test the body and status in the same example.
+  ```ruby
+  it "returns the correct user" do
+    get user_path(user)
+    expect(response.body["id"]).to eq user.id
+    expect(response.status).to eq 200
+  end
+  ```
+
+- Use helpers to reduce duplication. For example, assuming you're working on a JSON API, this helper will clean up the parsing logic for you.
+  ```ruby
+  # support/api_helpers.rb
+  module ApiHelpers
+    def json
+      JSON.parse(response.body)
+    end
+  end
+
+  # rails_helper.rb
+  config.include ApiHelpers, type: :request
+
+  # usage
+  expect(json["id"]).to eq user.id
+  ```
 
 
 ## Feature Specs
