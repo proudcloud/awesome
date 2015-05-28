@@ -260,7 +260,7 @@ Don't.
 
 ## Controller specs
 
-- See [Features](#featuresspecs).
+- See [Features](#feature-specs).
 
 
 ## Lib specs
