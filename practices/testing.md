@@ -328,6 +328,7 @@ Don't.
 ## Feature Specs
 
 - Use `feature` and `scenario` blocks.
+
   ```ruby
   feature "User Authentication" do
     scenario "with valid credentials" do
@@ -335,18 +336,22 @@ Don't.
     end
   end
   ```
+  
 - Test for element visibility.
+
   ```ruby
   expect(page).to have_link "Log Out"
 
-  # AVOID
-  expect(user.signed_in?).to eq true # test this somewhere else
+  # AVOID. test this somewhere else
+  expect(user.signed_in?).to eq true
   ```
+  
 - Multiple expectations per `scenario` is allowed.
 
 - Helper methods inside `feature` blocks or within the spec file is allowed.
 
 - Always use the Capybara version for negations.
+
   ```ruby
   expect(page).to have_no_content user.name
 
@@ -356,7 +361,7 @@ Don't.
 
 - Limit the usage of the `js: true` tag only to blocks that have javascript interaction.
 
-- Alternatively, use [teaspoon](https://github.com/modeset/teaspoon) for heavy javascript testing.
+- Use [teaspoon](https://github.com/modeset/teaspoon) for unit javascript testing.
 
 - Prefer [poltergeist](https://github.com/teampoltergeist/poltergeist) over the default javascript driver, `selenium`.  Avoid [capybara-webkit](https://github.com/thoughtbot/capybara-webkit).
 
