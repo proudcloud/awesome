@@ -15,6 +15,11 @@
 
 -  The `should` syntax is [dead](https://github.com/rspec/rspec-expectations/blob/master/Should.md#why-switch-over-from-should-to-expect). Use the `expect` syntax. This also means no `shoulda`.
 
+  ```ruby
+  user.name.should eq "Davy Jones"      # bad
+  expect(user.name).to eq "Davy Jones"  # ok
+  ```
+  
 - You can run specific examples by providing their line number when you run your tests.
 
   ```
@@ -50,7 +55,7 @@
 
   ```ruby
   # This is actually a smoke test
-  describe Wat do
+  describe Venue do
     ...
   end
   ```
@@ -138,7 +143,7 @@
 
 ## `pending`
 
-- Always mark an untested method with `pending`.
+- Mark incomplete tests with `pending`.
 
   ```ruby
   describe "#untested_method" do
@@ -146,10 +151,27 @@
   end
   ```
 
+- For methods that don't have tests yet (but should), use an `it` with no block. Don't use `pending`.
+
+  ```ruby
+  # bad:
+  describe "#untested_method" do
+    pending "because reasons"
+  end
+  
+  # ok:
+  it "#untested_method"
+  
+  # even better:
+  describe "#untested_method" do
+    it "succeeds with valid data"
+    it "returns nil when given invalid options"
+  end
+  ```
+  
 ## Metaprogramming Tests
 
 - Don't.
-
 
 # Rails
 
