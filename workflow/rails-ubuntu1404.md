@@ -2,12 +2,13 @@
 ---
 ####Installing Ruby
 ---
-1. Install Ruby dependencies
+Install Ruby dependencies  
 ```
 sudo apt-get update
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 ```
-2. Install Ruby (choose one of the methods below)
+Install Ruby (choose one of the methods below)  
+
 * Rbenv
 ```
 cd
@@ -43,7 +44,7 @@ make
 sudo make install
 ruby -v
 ```
-3. Install bundler  
+Install bundler  
 * To skip installation of documentation for each package (Optional)
 ```
 echo "gem: --no-ri --no-rdoc" >> ~/.gemrc
