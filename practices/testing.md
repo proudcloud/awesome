@@ -171,8 +171,6 @@
 
 - Use [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) over fixtures.
 
-- Use [ffaker](https://github.com/EmmanuelOga/ffaker) for data generation.
-
 - In your `rails_helper`, always set `config.use_transactional_fixtures` to `false`
 
 - External HTTP requests are slow. Always mock them or use gems like [vcr](https://github.com/vcr/vcr) and [WebMock](https://github.com/bblimke/webmock).
