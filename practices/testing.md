@@ -377,11 +377,37 @@
   end
   ```
 
-- [Traits](https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#traits) can be used to remove duplication. But use them sparingly.
 
-- When modifying factories, do not forget to restart `spring`.
+- [Traits](https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#traits) can be used to remove duplication. But use them sparingly.
 
 - Make sure that factories are always up to date.
 
-- Always provide the simplest defaults for your factories.
+- Always provide the simplest defaults for your factories. Prefer to only add fields that are validated such that records built through the factory will pass validation. Other fields would only serve to make for confusing future tests and make it difficult to test default behavior.
 
+  ```ruby
+  class Profile < ActiveRecord::Base
+    validates :name
+    validates :gender, inclusion %w(male female)
+  end
+  
+  factory :profile do
+    name "Jack Sparrow"
+    gender "male"
+    occupation "Pirate" # <- Don't
+    bio "Jack is a pirate lord of the seven seas." # <- Don't
+  end
+  ```
+  
+- Test your factories. This will make it easy to spot any factories that may be out of date.
+
+  ```ruby
+  EXCLUDED = [:factories, :to, :exclude, :if, :any]
+
+  FactoryGirl.factories.map(&:name).each do |factory_name|
+    next if EXCLUDED.include?(factory_name)
+
+    it "the #{factory_name} factory is valid" do
+      expect(build factory_name).to be_valid
+    end
+  end
+  ```
