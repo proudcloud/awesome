@@ -315,7 +315,7 @@
   ```
 - Test for element visibility.
   ```ruby
-  expect(page).to have_content "Log Out"
+  expect(page).to have_link "Log Out"
 
   # AVOID
   expect(user.signed_in?).to eq true # test this somewhere else
