@@ -255,12 +255,12 @@
 
 ## View specs
 
-- See [Features](#feature-specs).
+Don't.
 
 
 ## Controller specs
 
-- See [Features](#features-specs).
+- See [Features](#featuresspecs).
 
 
 ## Lib specs
