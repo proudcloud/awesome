@@ -216,7 +216,7 @@
   # or test the effect
   user.role = "admin"
   user.save
-  expect(user.role).to eq "admin"
+  expect(user.reload.role).to eq "admin"
 
   # or test for the just the call
   expect_any_instance_of(User).to receive(:ensure_default_role)
