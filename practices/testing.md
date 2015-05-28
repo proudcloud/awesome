@@ -19,7 +19,7 @@
   user.name.should eq "Davy Jones"      # bad
   expect(user.name).to eq "Davy Jones"  # ok
   ```
-  
+
 - You can run specific examples by providing their line number when you run your tests.
 
   ```
@@ -160,17 +160,17 @@
   describe "#untested_method" do
     pending "because reasons"
   end
-  
+
   # ok:
   it "#untested_method"
-  
+
   # even better:
   describe "#untested_method" do
     it "succeeds with valid data"
     it "returns nil when given invalid options"
   end
   ```
-  
+
 ## Metaprogramming Tests
 
 - Don't.
@@ -336,7 +336,7 @@ Don't.
     end
   end
   ```
-  
+
 - Test for element visibility.
 
   ```ruby
@@ -350,10 +350,10 @@ Don't.
   ```ruby
   # bad:
   expect(page).to have_content "Log Out"
-  
+
   # better:
   expect(page).to have_selector '#nav', text: /Log Out/
-  
+
   # also ok:
   within '#nav' do
     expect(page).to have_content "Log Out"
@@ -412,6 +412,25 @@ Don't.
   end
   ```
 
+- Place reusable sequences in a separate file.
+
+  ```ruby
+  # spec/factories/factory_sequences.rb
+  FactoryGirl.define do
+    sequence(:uid) { |i| SecureRandom.uuid }
+    sequence(:email) { |i| "user-#{i}@email.com" }
+  end
+
+  factory :admin do
+    uid
+    email
+  end
+
+  factory :client do
+    uid
+    email
+  end
+  ```
 
 - [Traits](https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md#traits) can be used to remove duplication. But use them sparingly.
 
@@ -424,7 +443,7 @@ Don't.
     validates :name, presence: true
     validates :gender, inclusion: %w(male female)
   end
-  
+
   factory :profile do
     name "Jack Sparrow"
     gender "male"
@@ -432,7 +451,7 @@ Don't.
     bio "Jack is a pirate lord of the seven seas." # <- Don't
   end
   ```
-  
+
 - Test your factories. This will make it easy to spot any factories that may be out of date.
 
   ```ruby
