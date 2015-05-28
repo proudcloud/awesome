@@ -345,8 +345,21 @@ Don't.
   # AVOID. test this somewhere else
   expect(user.signed_in?).to eq true
   ```
+
+- Try to be more selective of tests. Using `expect(page).to have_content` will lead to really long error messages.
+  ```ruby
+  # bad:
+  expect(page).to have_content "Log Out"
   
-- Multiple expectations per `scenario` is allowed.
+  # better:
+  expect(page).to have_selector '#nav', text: /Log Out/
+  
+  # also ok:
+  within '#nav' do
+    expect(page).to have_content "Log Out"
+  end
+  ```
+- Multiple expectations per `scenario` is encouraged. Each scenario takes time to spin up, so using less scenarios means faster tests.
 
 - Helper methods inside `feature` blocks or within the spec file is allowed.
 
@@ -374,32 +387,27 @@ Don't.
   config.before(:each) do |example|
     Capybara.current_driver = :selenium if example.metadata[:selenium]
   end
-
   ```
 
 
 ## Factories
 
-- Always include the syntax helpers.
+- Always include the syntax helpers in your tests. This makes `build` and `create` available in your test cases.
 
   ```ruby
   # rails_helper.rb
   config.include FactoryGirl::Syntax::Methods
-
   ```
 
-- Prefer `build` over `create`, if you can get away with it.
+- Prefer `build` over `create`, if you can get away with it. This can lead to faster tests.
 
 - Avoid `build_stubbed`.
 
-- Never hard code emails and similar fields that must be unique. Use `sequence`.
+- Never hard-code emails and similar fields that must be unique. Use `sequence`.
 
   ```ruby
   factory :user do
-    sequence :email do |index|
-      "user-#{index}@email.com"
-    end
-
+    sequence(:email) { |i| "user-#{i}@email.com" }
     ...
   end
   ```
