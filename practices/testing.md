@@ -74,7 +74,7 @@
 ## `context`
 
 - Use `context` for branching code. Prefer using `with` and `without` or `when`.
-p
+
   ```ruby
   describe "#some_method" do
     context "with a truthy condition" do
