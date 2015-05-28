@@ -413,8 +413,8 @@ Don't.
 
   ```ruby
   class Profile < ActiveRecord::Base
-    validates :name
-    validates :gender, inclusion %w(male female)
+    validates :name, presence: true
+    validates :gender, inclusion: %w(male female)
   end
   
   factory :profile do
