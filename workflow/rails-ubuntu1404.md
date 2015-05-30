@@ -51,7 +51,6 @@ echo "gem: --no-ri --no-rdoc" >> ~/.gemrc
 ```
 * Install Bundler
 ```
-echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 gem install bundler
 ```
 ---
