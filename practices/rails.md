@@ -16,6 +16,9 @@ CSS and JS:
 - Prefer [rails-assets.org](https://rails-assets.org) for managing 3rd-party JS/CSS
 - Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
 
+Style Guides:
+- Adhere to [rsjs](https://github.com/rstacruz/rsjs) when writing JS
+
 Emails:
 
 - Prefer [letter_opener](https://rubygems.org/gems/letter_opener) for locally testing emails

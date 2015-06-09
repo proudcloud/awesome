@@ -10,6 +10,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - [Rails](practices/rails.md) - Makes the world go 'round
 - [Testing](practices/testing.md) - Detailed Rspec and TDD practices
 - [iOS](practices/ios.md) - Xcode Swift development
+- [Ember](practices/ember.md) - SPA Development with Ember.js
 
 ----
 
@@ -17,7 +18,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 Must-read books, articles and must-watch videos for every [Proudcloud] developer.
 
 - [General](readings/README.md)
-  
+
 ----
 
 ### Workflow
