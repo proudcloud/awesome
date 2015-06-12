@@ -24,3 +24,8 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - Add proper installation instructions. Notes and caveats.
 - Github Slack channel integration. The amount of notifications you want to receive depends on you. Usually, we like to get notified with new pull requests and comments only.
 - Continuous integration. Currently, we're using [Circleci](https://circleci.com). Ask an organization admin or a collaborator to add it for you if you don't have access. Circleci uses Github authentication so you don't need an invite. Don't forget the Slack integration.
+
+## Watch out
+
+![image](https://cloud.githubusercontent.com/assets/2481/8126567/1f6be7a0-1122-11e5-9292-a5eab7df6564.png)
+
