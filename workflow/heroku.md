@@ -34,7 +34,7 @@ ruby "2.1.2"
 ```
 Set static asset serving at `config/application.rb`
 ```
-config.serve_static_assets = true
+config.serve_static_files = true
 ```
 It is expected that credentials/keys are set in your `secrets.yml`(which is included in the repo), just make sure the these are appropriately set within `production: ` block as well
 ```
