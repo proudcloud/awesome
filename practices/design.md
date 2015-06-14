@@ -15,6 +15,8 @@
 - Prefer to start a styleguide as early on in the project
 - Refer to [rscss](http://rscss.io)
 - The rscss [two-word rule](https://github.com/rstacruz/rscss#naming-components) isn't generally followed around here, feel free to break it
+- Style `&:focus, &:hover { ... }` together
+- If you've never broken the rule above, feel free to use `:focus { outline: none }` ([haha](http://www.outlinenone.com/))
 
 ## Bootstrap
 
