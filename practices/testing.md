@@ -353,15 +353,6 @@ Don't. Prefer to use this time to write feature specs instead.
 
 - Helper methods inside `feature` blocks or within the spec file is allowed.
 
-- Always use the Capybara version for negations.
-
-  ```ruby
-  expect(page).to have_no_content user.name
-
-  # AVOID
-  expect(page).to_not have_content user.name
-  ```
-
 - Limit the usage of the `js: true` tag only to blocks that have javascript interaction.
 
 - Use [teaspoon](https://github.com/modeset/teaspoon) for unit javascript testing.
