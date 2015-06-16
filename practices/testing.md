@@ -16,8 +16,11 @@
 -  The `should` syntax is [dead](https://github.com/rspec/rspec-expectations/blob/master/Should.md#why-switch-over-from-should-to-expect). Use the `expect` syntax. This also means no `shoulda`.
 
   ```ruby
-  user.name.should eq "Davy Jones"      # bad
-  expect(user.name).to eq "Davy Jones"  # ok
+  # ✗ Avoid
+  user.name.should eq "Davy Jones"
+
+  # ✓ OK
+  expect(user.name).to eq "Davy Jones"
   ```
 
 - You can run specific examples by providing their line number when you run your tests.
@@ -40,7 +43,7 @@
   # Displays the 5 slowest examples
   > rspec spec/models/user_spec.rb -p 5
   ```
-  
+
 - Add `.rspec-local` to your project's `.gitignore` file. This will allow individual developers to customize their own default rspec parameters.
 
   ```sh
@@ -104,11 +107,11 @@
 - Be explicit with your descriptions. Say what the code *does*, not what it *should* do. (aka: don't start descriptions with "should")
 
   ```ruby
-  # ✓ OK:
+  # ✓ OK
   it "returns true"
   it "sends the email"
 
-  # ✗ Avoid:
+  # ✗ Avoid
   it "should be true"
   it "should send the email"
   ```
@@ -116,11 +119,11 @@
 - Prefer `eq` over `be` and magic matchers.
 
   ```ruby
-  # ✓ OK:
+  # ✓ OK
   expect(user.admin?).to eq true
   expect(user.age).to eq 12
 
-  # ✗ Avoid:
+  # ✗ Avoid
   expect(user).to be_admin
   expect(user.age).to be 12
   ```
@@ -145,15 +148,15 @@
 - For methods that don't have tests yet (but should), use an `it` with no block. Don't use `pending`.
 
   ```ruby
-  # bad:
+  # ✗ Avoid
   describe "#untested_method" do
     pending "because reasons"
   end
 
-  # ok:
+  # ✓ OK
   it "#untested_method"
 
-  # even better:
+  # ❤ BETTER
   describe "#untested_method" do
     it "succeeds with valid data"
     it "returns nil when given invalid options"
@@ -189,9 +192,9 @@
 - External HTTP requests are slow. Always mock them or use gems like [vcr](https://github.com/vcr/vcr) and [WebMock](https://github.com/bblimke/webmock).
 
 - When mocking/stubbing, never mock/stub the unit you are testing.
-- 
+-
   ```ruby
-  # AVOID
+  # ✗ Avoid
   allow(User).to receive(:count).and_return(2)
   expect(User.count).to eq 2
   ```
@@ -332,19 +335,19 @@ Don't. Prefer to use this time to write feature specs instead.
   ```ruby
   expect(page).to have_link "Log Out"
 
-  # AVOID. test this somewhere else
-  expect(user.signed_in?).to eq true
+  # ✗ Avoid
+  expect(user.signed_in?).to eq true # This should be in a unit test
   ```
 
 - Try to be more selective of tests. Using `expect(page).to have_content` will lead to really long error messages.
   ```ruby
-  # bad:
+  # ✗ Avoid
   expect(page).to have_content "Log Out"
 
-  # better:
+  # ✓ OK
   expect(page).to have_selector '#nav', text: /Log Out/
 
-  # also ok:
+  # ❤ BETTER
   within '#nav' do
     expect(page).to have_content "Log Out"
   end
@@ -358,7 +361,7 @@ Don't. Prefer to use this time to write feature specs instead.
   ```ruby
   expect(page).to have_no_content user.name
 
-  # AVOID
+  # ✗ Avoid
   expect(page).to_not have_content user.name
   ```
 
