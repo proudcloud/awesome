@@ -82,50 +82,33 @@
 - Use `context` for branching code. Prefer using `with` and `without` or `when`.
 
   ```ruby
-  describe "#some_method" do
-    context "with a truthy condition" do
+  describe "#has_comments?" do
+    context "in a post with comments" do
+      let!(:comment) { create :comment, post: post }
       it "returns true" do
-        condition = true
-        expect(some_method condition).to eq true
+        expect(post.has_comments?).to eq true
       end
     end
 
-    context "without a truthy condition" do
+    context "in a post without comments" do
       it "returns false" do
-        condition = false
-        expect(some_method condition).to eq false
+        expect(post.has_comments?).to eq false
       end
     end
-
-    # OR
-
-    context "when the condition is truthy" do
-      it "returns true" do
-        condition = true
-        expect(some_method condition).to eq true
-      end
-    end
-
-    context "when the condition is not truthy" do
-      it "returns false" do
-        condition = false
-        expect(some_method condition).to eq false
-      end
-    end
-  end
   ```
 
 ## `it`
 
 - Prefer one expectation per `it` block.
 
-- Be explicit with your descriptions. Say what the code *does*, not what it *should* do.
+- Be explicit with your descriptions. Say what the code *does*, not what it *should* do. (aka: don't start descriptions with "should")
 
   ```ruby
+  # ✓ OK:
   it "returns true"
   it "sends the email"
 
-  # AVOID
+  # ✗ Avoid:
   it "should be true"
   it "should send the email"
   ```
@@ -133,11 +116,11 @@
 - Prefer `eq` over `be` and magic matchers.
 
   ```ruby
-  # PREFER THIS
+  # ✓ OK:
   expect(user.admin?).to eq true
   expect(user.age).to eq 12
 
-  # OVER THIS
+  # ✗ Avoid:
   expect(user).to be_admin
   expect(user.age).to be 12
   ```
@@ -201,11 +184,12 @@
 
 - Use [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) over fixtures.
 
-- In your `rails_helper`, always set `config.use_transactional_fixtures` to `false`
+- In your `rails_helper`, always set `config.use_transactional_fixtures` to `false`. This isn't necessary if you're using database_rewinder.
 
 - External HTTP requests are slow. Always mock them or use gems like [vcr](https://github.com/vcr/vcr) and [WebMock](https://github.com/bblimke/webmock).
 
 - When mocking/stubbing, never mock/stub the unit you are testing.
+- 
   ```ruby
   # AVOID
   allow(User).to receive(:count).and_return(2)
@@ -261,7 +245,7 @@
 
 ## View specs
 
-Don't.
+Don't. Prefer to use this time to write feature specs instead.
 
 
 ## Controller specs
@@ -343,7 +327,7 @@ Don't.
   end
   ```
 
-- Test for element visibility.
+- Prefer to test for element visibility instead of testing model effects when possible.
 
   ```ruby
   expect(page).to have_link "Log Out"
