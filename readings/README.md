@@ -42,6 +42,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## JavaScript
 
+- [Things Every Javascript Developer Should Know](Things Every Javascript Developer Should Know)
 - [Airbnb JavaScript style guide](https://github.com/airbnb/javascript)
 - [ES6 Features](git.io/es6features)
 
