@@ -42,7 +42,9 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## JavaScript
 
-- [Things Every Javascript Developer Should Know](Things Every Javascript Developer Should Know)
+- [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
+- [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
+- [Things Every Javascript Developer Should Know](http://www.devbattles.com/en/sand/post-1427-Things+Every+Javascript+Developer+Should+Know)
 - [Airbnb JavaScript style guide](https://github.com/airbnb/javascript)
 - [ES6 Features](git.io/es6features)
 
