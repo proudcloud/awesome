@@ -138,7 +138,7 @@
 - Mark incomplete tests with `pending`.
 
   ```ruby
-  it "#publish!" do
+  it "publishes the event" do
     pending "because reasons"
     event.publish!
     expect(event.published?).to eq true
@@ -192,7 +192,7 @@
 - External HTTP requests are slow. Always mock them or use gems like [vcr](https://github.com/vcr/vcr) and [WebMock](https://github.com/bblimke/webmock).
 
 - When mocking/stubbing, never mock/stub the unit you are testing.
--
+ 
   ```ruby
   # ✗ Avoid
   allow(User).to receive(:count).and_return(2)
@@ -243,7 +243,7 @@
   expect(user.role).to eq "default"
   ```
 
-- `private` method testing can be optional, but only if there is a public method spec that covers it.
+- Testing `private` methods can be optional, but only if there is a public method spec that covers it.
 
 
 ## View specs
