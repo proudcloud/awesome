@@ -54,6 +54,12 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
 
+## Vim
+
+- [A Byte of Vim](http://www.swaroopch.com/notes/vim/)
+- [The Vim Book](http://www.oualline.com/vim-book.html)
+- [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+
 ## Coding
 - [Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - [Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
