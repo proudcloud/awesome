@@ -30,6 +30,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Design as Art](http://www.amazon.com/Design-as-Art-Bruno-Munari/dp/0141035811) by Bruno Munari
 - [Professional Web Typography](https://prowebtype.com) by Donny Truong
 - [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1) by 
+- [A Book Apart](http://abookapart.com/)
 
 #### Repos
 - [Web Design Repo](http://www.webdesignrepo.com/)
