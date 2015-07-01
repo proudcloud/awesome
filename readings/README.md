@@ -31,6 +31,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Professional Web Typography](https://prowebtype.com) by Donny Truong
 - [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1) by 
 - [A Book Apart](http://abookapart.com/)
+- [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
 
 #### Repos
 - [Web Design Repo](http://www.webdesignrepo.com/)
