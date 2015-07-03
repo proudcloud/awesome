@@ -37,7 +37,7 @@ Ideal:
 
 Branching:
 
-- Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes (see [git-flow])
+- Use `feature/xyz` branches for features, `fix/xyz` for code fixes, `hotfix/xyz` for emergency hotfixes (see [git-flow] or [this counter argument])
 - Use the `develop` branch for development
 - Use the `master` branch for deployable versions
 - Make sure `develop` is always passing CI tests
@@ -48,3 +48,4 @@ Avoid:
 - Avoid `production` branches, they're usually the same as master
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
+[this counter argument]: http://endoflineblog.com/gitflow-considered-harmful
