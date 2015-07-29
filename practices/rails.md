@@ -17,6 +17,7 @@ CSS and JS:
 - Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
 
 Style Guides:
+
 - Adhere to [rsjs](https://github.com/rstacruz/rsjs) when writing JS
 
 Emails:
