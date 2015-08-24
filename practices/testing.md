@@ -192,7 +192,7 @@
 - External HTTP requests are slow. Always mock them or use gems like [vcr](https://github.com/vcr/vcr) and [WebMock](https://github.com/bblimke/webmock).
 
 - When mocking/stubbing, never mock/stub the unit you are testing.
- 
+
   ```ruby
   # ✗ Avoid
   allow(User).to receive(:count).and_return(2)
@@ -382,6 +382,7 @@ Don't. Prefer to use this time to write feature specs instead.
   end
   ```
 
+- Don't use `sleep` in your specs. If you feel like you really need to, ask first.
 
 ## Factories
 
