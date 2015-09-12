@@ -29,7 +29,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Steal Like An Artist](http://austinkleon.com/steal/) by Austin Kleon
 - [Design as Art](http://www.amazon.com/Design-as-Art-Bruno-Munari/dp/0141035811) by Bruno Munari
 - [Professional Web Typography](https://prowebtype.com) by Donny Truong
-- [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1) by 
+- [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1) by
 - [A Book Apart](http://abookapart.com/)
 - [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
 
@@ -44,6 +44,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## JavaScript
 
+- [Essential Javascript Links](https://github.com/ericelliott/essential-javascript-links)
 - [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
 - [You don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
 - [Things Every Javascript Developer Should Know](http://www.devbattles.com/en/sand/post-1427-Things+Every+Javascript+Developer+Should+Know)
