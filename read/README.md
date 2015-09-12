@@ -4,24 +4,10 @@ This is a curated listing of all must-read resources for the builders of Proudcl
 
 To add a link, add an item on top (newest first). Feel free to create sections as needed.
 
-## General
-
-- [Development Practices](https://github.com/proudcloud/awesome/blob/master/PRACTICES.md). Practices we learned over the years
-- [Workflow - iOS](https://github.com/proudcloud/awesome/blob/master/WORKFLOW-iOS.md)
-
 ## Design
 
-#### Articles and Videos
-
-- [Optical Adjustment](https://medium.com/@lukejonesme/optical-adjustment-b55492a1165c)
-- [Free Books for Web Design 2014](http://speckyboy.com/2015/01/12/free-web-design-ebooks-2014/)
-- [Photoshop Etiquette](http://www.photoshopetiquette.com/)
-- [Facebook Visual Identity](http://officeofbenbarry.com/see/facebook-visual-identity) - insight on branding process
-- [Aaron Draplin on Logo Design](https://vimeo.com/113751583) - on logo design iterations
-- [rscss: Reasonable System for CSS Stylesheet Structure](https://github.com/rstacruz/rscss)
-
-#### Books
-
+- [A Book Apart](http://abookapart.com/)
+- [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
 - [Web UI Design Best Practices](http://www.uxpin.com/web-ui-design-best-practices.html) by UXPin (free)
 - [In Progress](http://www.amazon.com/Progress-Lettering-Artists-Sketchbook-Process-ebook/dp/B00WYJCIB4/ref=sr_1_1?s=books&ie=UTF8&qid=1431501090&sr=1-1&keywords=in+progress+jessica+hische) by Jessica Hische
 - [HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/) by Jon Duckett
@@ -29,9 +15,12 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Steal Like An Artist](http://austinkleon.com/steal/) by Austin Kleon
 - [Design as Art](http://www.amazon.com/Design-as-Art-Bruno-Munari/dp/0141035811) by Bruno Munari
 - [Professional Web Typography](https://prowebtype.com) by Donny Truong
-- [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1) by
-- [A Book Apart](http://abookapart.com/)
-- [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
+- [Hacker Shelf: Collection of free books for the intellectually curious](http://hackershelf.com/browse/?popular=1)
+- [Optical Adjustment](https://medium.com/@lukejonesme/optical-adjustment-b55492a1165c)
+- [Free Books for Web Design 2014](http://speckyboy.com/2015/01/12/free-web-design-ebooks-2014/)
+- [Photoshop Etiquette](http://www.photoshopetiquette.com/)
+- [Facebook Visual Identity](http://officeofbenbarry.com/see/facebook-visual-identity) - insight on branding process
+- [rscss: Reasonable System for CSS Stylesheet Structure](https://github.com/rstacruz/rscss)
 
 #### Repos
 - [Web Design Repo](http://www.webdesignrepo.com/)
@@ -53,6 +42,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Ruby
 
+- [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
 
 ## Vim
