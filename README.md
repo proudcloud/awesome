@@ -18,7 +18,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 ### Required reading
 Must-read books, articles and must-watch videos for every [Proudcloud] developer.
 
-- [Required reading](readings/README.md)
+- [Required reading](read/README.md)
 
 ----
 
