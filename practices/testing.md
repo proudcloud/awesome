@@ -358,7 +358,7 @@ Don't. Prefer to use this time to write feature specs instead.
 
 - Limit the usage of the `js: true` tag only to blocks that have javascript interaction.
 
-- Use [teaspoon](https://github.com/modeset/teaspoon) for unit javascript testing.
+- Use [konacha](https://github.com/jfirebaugh/konacha) for unit javascript testing.
 
 - Prefer [poltergeist](https://github.com/teampoltergeist/poltergeist) over the default javascript driver, `selenium`.  Avoid [capybara-webkit](https://github.com/thoughtbot/capybara-webkit).
 

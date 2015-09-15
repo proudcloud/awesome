@@ -14,7 +14,7 @@ CSS and JS:
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
 - Prefer [rails-assets.org](https://rails-assets.org) for managing 3rd-party JS/CSS
-- Prefer [teaspoon](https://github.com/modeset/teaspoon) for JS testing
+- Prefer [konacha](github.com/jfirebaugh/konacha) for JS unit testing
 
 Server:
 
@@ -51,6 +51,7 @@ Avoid:
 - Avoid [coffeescript](http://coffeescript.org/). Prefer to use [sprockets-es6](https://rubygems.org/gems/sprockets-es6) instead. ([article](https://robots.thoughtbot.com/replace-coffeescript-with-es6))
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 - Avoid configuration gems like [figaro](http://rubygems.org/gems/figaro), [dotenv](http://rubygems.org/gems/dotenv), etc. Rails 4.1 should render them useless now.
+- Avoid [teaspoon](https://github.com/modeset/teaspoon). It has more boilerplate to setup, and doesn't sandbox your test DOM unlike konacha. Use konacha instead
 
 ## Also see
 
