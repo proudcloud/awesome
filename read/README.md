@@ -9,7 +9,6 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [A Book Apart](http://abookapart.com/)
 - [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
 - [Web UI Design Best Practices](http://www.uxpin.com/web-ui-design-best-practices.html) by UXPin (free)
-- [In Progress](http://www.amazon.com/Progress-Lettering-Artists-Sketchbook-Process-ebook/dp/B00WYJCIB4/ref=sr_1_1?s=books&ie=UTF8&qid=1431501090&sr=1-1&keywords=in+progress+jessica+hische) by Jessica Hische
 - [HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/) by Jon Duckett
 - [JavaScript and JQuery: Interactive Front-End Web Development ](http://javascriptbook.com/) by Jon Duckett
 - [Steal Like An Artist](http://austinkleon.com/steal/) by Austin Kleon
@@ -20,6 +19,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Free Books for Web Design 2014](http://speckyboy.com/2015/01/12/free-web-design-ebooks-2014/)
 - [Photoshop Etiquette](http://www.photoshopetiquette.com/)
 - [Facebook Visual Identity](http://officeofbenbarry.com/see/facebook-visual-identity) - insight on branding process
+- [How to be a graphic designer without losing your soul](http://www.amazon.com/Graphic-Designer-without-Expanded-Edition/dp/1568989830) by Adrian Shaughnessy
 - [rscss: Reasonable System for CSS Stylesheet Structure](https://github.com/rstacruz/rscss)
 
 #### Repos
@@ -69,6 +69,9 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 ## Miscellaneous
 
 - [Panda (App, Chrome Extension)](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
+- [WhatFont (Chrome Extension)](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Easiest to identify fonts in web pages
+- [Window Resizer (Chrome Extension)](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - Resize browser window to emulate various screen resolutions
+- [Raindrop (Chrome Extension)](http://raindrop.io/extension/) - for bookmarks
 
 ## License
 
