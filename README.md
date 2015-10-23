@@ -12,6 +12,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - [iOS](practices/ios.md) - Xcode Swift development
 - [i18n](practices/i18n.md) - Rails localization
 - [Ember](practices/ember.md) - SPA Development with Ember.js
+- [Issues](practices/issues.md) - Filing issues
 
 ----
 
