@@ -39,10 +39,19 @@ When filing issues, keep the title short and the body descriptive.
 * **Don't be too general.**<br>
   Try to be more specific when possible.
 
-  > `Can't buy products` ✗ *...too broad*
+  > `Can't buy products` ✗ *...too broad*<br>
   > `Product page: the buy button isn't clickable` :+1:
 
 <br>
+
+## Short example
+No need to include steps/expected/actual when it's obvious.
+
+> **Avatars are not shown**<br>
+> The user directory is missing avatars. (OS X, Firefox, Production)<br>
+> http://ticketadvisor.com/users
+>
+> `[screenshot goes here]`
 
 ## Full example
 
@@ -61,13 +70,3 @@ When filing issues, keep the title short and the body descriptive.
   
 > Expected: The email will be sent.<br>
 > Actual: A JavaScript error appears when "send" is clicked.
-  
-## Short example
-No need to include steps/expected/actual when it's obvious.
-
-> **Avatars are not shown**<br>
-> The user directory is missing avatars. (OS X, Firefox, Production)<br>
-> http://ticketadvisor.com/users
->
-> `[screenshot goes here]`
-
