@@ -25,9 +25,9 @@ When filing issues, keep the title short and the body descriptive.
   Include screenshots when possible!
 
 * **Be detailed.**<br>
-  Ensure that the following details are available (or are obvious):
+  For bug reports, ensure that the following details are available or are obvious:
 
-  * URL
+  * URL *(if applicable)*
   * Environment *(OS, browser, website environment)*
   * Steps to reproduce
   * Expected result
@@ -35,6 +35,12 @@ When filing issues, keep the title short and the body descriptive.
   
 * **But not too detailed.**<br>
   You don't need to actually list *all* of them (especially for simple issues), just make sure that anyone can figure those details out.
+
+* **Don't be too general.**<br>
+  Try to be more specific when possible.
+
+  > `Can't buy products` ✗ *...too broad*
+  > `Product page: the buy button isn't clickable` :+1:
 
 <br>
 
