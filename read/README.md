@@ -63,6 +63,8 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 ## Life
 - [Personal MBA](http://www.amazon.com/Personal-MBA-Master-Art-Business/dp/1591845572/)
 - [Rich Dad, Poor Dad](http://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680011/)
+- [How to Win Friends and Influence
+  People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
 
 ## iOS
 
