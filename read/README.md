@@ -56,6 +56,10 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 - [Programmers Rantings](http://www.amazon.com/Programmers-Rantings-Programming-Language-Religions-Philosophies-ebook/dp/B00AGXSIXW)
 
+## Culture
+- [Onboarding](http://blog.mailchimp.com/maintaining-company-culture-through-onboarding/)
+- [Team Debt](https://kateheddleston.com/blog/onboarding-and-the-cost-of-team-debt)
+
 ## Life
 - [Personal MBA](http://www.amazon.com/Personal-MBA-Master-Art-Business/dp/1591845572/)
 - [Rich Dad, Poor Dad](http://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680011/)
