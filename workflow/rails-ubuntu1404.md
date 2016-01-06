@@ -119,6 +119,12 @@ sudo apt-get update
 sudo apt-get install postgresql-common
 sudo apt-get install postgresql-9.3 libpq-dev
 ```
+
+* Run Postgres
+```
+sudo /etc/init.d/postgresql start
+```
+
 * Setup postgres user
 ```
 sudo -u postgres createuser mark -s
