@@ -44,6 +44,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
+- [Vim Galore](https://github.com/mhinz/vim-galore)
 
 ## Vim
 
