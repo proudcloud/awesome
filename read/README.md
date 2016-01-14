@@ -44,13 +44,13 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 - [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 - [Metaprogramming Ruby](https://pragprog.com/book/ppmetr/metaprogramming-ruby)
-- [Vim Galore](https://github.com/mhinz/vim-galore)
 
 ## Vim
 
 - [A Byte of Vim](http://www.swaroopch.com/notes/vim/)
 - [The Vim Book](http://www.oualline.com/vim-book.html)
 - [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+- [Vim Galore](https://github.com/mhinz/vim-galore)
 
 ## Coding
 - [Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
