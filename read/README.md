@@ -73,6 +73,9 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 - [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/)
 - [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 
+## Testing
+- [Economy of Tests](http://stakeholderwhisperer.com/posts/2015/1/economy-of-tests)
+
 ## Miscellaneous
 
 - [Panda (App, Chrome Extension)](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
