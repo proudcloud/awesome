@@ -75,6 +75,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Testing
 - [Economy of Tests](http://stakeholderwhisperer.com/posts/2015/1/economy-of-tests)
+- [RSpec Style Guide](https://github.com/reachlocal/rspec-style-guide)
 
 ## Miscellaneous
 
