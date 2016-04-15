@@ -347,7 +347,7 @@ Don't. Prefer to use this time to write feature specs instead.
   # ✓ OK
   expect(page).to have_selector '#nav', text: /Log Out/
 
-  # ❤ BETTER
+  # ❤ BETTER, if it works
   within '#nav' do
     expect(page).to have_content "Log Out"
   end
@@ -374,6 +374,8 @@ Don't. Prefer to use this time to write feature specs instead.
   ```
 
 - Don't use `sleep` in your specs. If you feel like you really need to, ask first.
+
+- Use `find_button('Save').trigger('click')` instead of `click_button('Save')` for javascript enabled specs.
 
 ## Factories
 
