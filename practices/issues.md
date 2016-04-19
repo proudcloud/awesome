@@ -14,8 +14,10 @@ When filing issues, keep the title short and the body descriptive.
 * **Write a short description.**<br>
   Add a one-sentence (or one-paragraph) in the body of the issue.
 
-  > **Can't change passwords**<br>
-  > When I'm logged into as a User, the "change email" form returns an error.
+  > 
+  > Title: `Can't change passwords`<br>
+  > Description:
+  > `When I'm logged into as a User, the "change email" form returns an error.`
 
 <br>
 
