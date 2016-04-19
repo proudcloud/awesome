@@ -41,7 +41,9 @@ When filing issues, keep the title short and the body descriptive.
 * **Don't be too general.**<br>
   Try to be more specific when possible.
 
-  > `Can't buy products` ✗ *...too broad*<br>
+  > `Products error`  ✗ *...too broad*<br>
+  > `Can't buy products` ✗ *...still too broad*<br>
+  > `Product page error` ✗ *...still too broad*<br>
   > `Product page: the buy button isn't clickable` :+1:
 
 <br>
