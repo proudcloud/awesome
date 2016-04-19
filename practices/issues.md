@@ -4,6 +4,8 @@ When filing issues, keep the title short and the body descriptive.
 
 <br>
 
+## Titles
+
 * **Keep the title short.**<br>
   Put any details in the body, not in the title. This makes it easier to digest a long list of issues.
 
@@ -11,6 +13,18 @@ When filing issues, keep the title short and the body descriptive.
   > `[User] can't change passwords` ✗ *...put that in the description*<br>
   > `Can't change passwords` :+1:
   
+* **Don't be too general.**<br>
+  Try to be more specific when possible.
+
+  > `Products error`  ✗ *...too broad*<br>
+  > `Can't buy products` ✗ *...still too broad*<br>
+  > `Product page error` ✗ *...still too broad*<br>
+  > `Product page: the buy button isn't clickable` :+1:
+
+<br>
+
+## Details
+
 * **Write a short description.**<br>
   Add a one-sentence (or one-paragraph) in the body of the issue.
 
@@ -18,11 +32,7 @@ When filing issues, keep the title short and the body descriptive.
   > Title: `Can't change passwords`<br>
   > Description:
   > `When I'm logged into as a User, the "change email" form returns an error.`
-
-<br>
-
-## Details
-
+  
 * **Be visual.**<br>
   Include screenshots when possible!
 
@@ -37,14 +47,6 @@ When filing issues, keep the title short and the body descriptive.
   
 * **But not too detailed.**<br>
   You don't need to actually list *all* of them (especially for simple issues), just make sure that anyone can figure those details out.
-
-* **Don't be too general.**<br>
-  Try to be more specific when possible.
-
-  > `Products error`  ✗ *...too broad*<br>
-  > `Can't buy products` ✗ *...still too broad*<br>
-  > `Product page error` ✗ *...still too broad*<br>
-  > `Product page: the buy button isn't clickable` :+1:
 
 <br>
 
