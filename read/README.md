@@ -6,6 +6,7 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Design
 
+- [Design Machines: How to survive the digital apocalypse] (https://louderthanten.com/coax/design-machines)
 - [A Book Apart](http://abookapart.com/)
 - [100 Things Every Designer Needs to Know About People](http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535)
 - [Web UI Design Best Practices](http://www.uxpin.com/web-ui-design-best-practices.html) by UXPin (free)
