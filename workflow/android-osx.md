@@ -6,11 +6,10 @@ If you have [Homebrew](http://brew.sh/) and [Homebrew Cask](https://caskroom.git
 
 ```sh
 brew cask install java
-brew install android-sdk
 brew cask install android-studio
 ```
 
-Tested on El Capitan (OS X 10.11).
+Tested on El Capitan (OS X 10.11). You may also check out these brew packages: `android-sdk` (standalone SDK without studio), `android-platform-tools` (adb and friends).
 
 ## Manual setup
 
