@@ -32,6 +32,12 @@ Guides on setting up common development environments.
 - [iOS](workflow/ios.md)
 - [Rails on Ubuntu 14.04](workflow/rails-ubuntu1404.md)
 
+----
+
+### Tools
+A list of our recommended tools for design and development.
+
+- [Tools](tools/README.md)
 
 [Proudcloud]: http://proudcloud.net
 
