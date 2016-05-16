@@ -8,7 +8,11 @@
 
 ## Vim plugins
 
-- ...
+- [syntastic](https://github.com/scrooloose/syntastic) - syntax checking plugin
+- [vim-commentary](https://github.com/tpope/vim-commentary) - comment stuff out
+- [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
+- [vim-surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
+- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - a code-completion engine for Vim
 
 ## Sketch plugins
 
