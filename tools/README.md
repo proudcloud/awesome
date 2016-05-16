@@ -8,7 +8,7 @@
 
 ## Vim plugins
 
-- [syntastic](https://github.com/scrooloose/syntastic) - syntax checking plugin
+- [neomake](https://github.com/neomake/neomake) - a plugin for asynchronous :make using Neovim's job-control functionality
 - [vim-commentary](https://github.com/tpope/vim-commentary) - comment stuff out
 - [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
 - [vim-surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
