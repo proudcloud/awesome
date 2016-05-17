@@ -14,14 +14,14 @@
 
 ###Why is Testing necessary?
 
-    Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
+Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
 
         a. Finding defects.
         b. Gaining confidence about the level of quality of the product.
         c. Providing information for decision making.
         d. Preventing defects before the product is released for operational use.
 
-    These objectives can change depending on the viewpoint why testing is done. For example:
+These objectives can change depending on the viewpoint why testing is done. For example:
 
 a. Development Testing (Component, Integration, System Testing)
             - Main objective may be to cause as many failures as possible so that they can be identified and fixed.
@@ -32,7 +32,8 @@ c. Maintenance and Regression Testing.
             - This includes testing to ensure that no new defects have been introduced during development of changes.
 
 ###Seven Testing Principles
-    These are general guidelines for testing.
+
+These are general guidelines for testing.
         1. Testing shows presence of defects
             - Testing can show that defects are present, but cannot prove that there are no defects. Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, it is not a proof of correctness.
         2. Exhaustive testing is impossible.
@@ -49,7 +50,8 @@ c. Maintenance and Regression Testing.
             - Finding and fixing defects does not help if the system built is unusable and does not fulfill the user's’ needs and expectations.
 
 ###Fundamental Test Process
-    Test execution is the most visible part of testing. But to be effective and efficient, test plans should include time to be spent on planning the tests, designing test cases, preparing for execution and evaluation of results. The fundamental test process is consisted of the following main activities:
+
+Test execution is the most visible part of testing. But to be effective and efficient, test plans should include time to be spent on planning the tests, designing test cases, preparing for execution and evaluation of results. The fundamental test process is consisted of the following main activities:
         a. Test planning and control.
         b. Test analysis and design.
         c. Test implementation and execution.
