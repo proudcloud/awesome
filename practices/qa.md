@@ -13,13 +13,13 @@
 * Conducting static analysis.
 
 ###Why is Testing necessary?
-    Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
+...Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
         a. Finding defects.
         b. Gaining confidence about the level of quality of the product.
         c. Providing information for decision making.
         d. Preventing defects before the product is released for operational use.
 
-    These objectives can change depending on the viewpoint why testing is done. For example:
+...These objectives can change depending on the viewpoint why testing is done. For example:
         a. Development Testing (Component, Integration, System Testing)
             - Main objective may be to cause as many failures as possible so that they can be identified and fixed.
         b. Acceptance Testing
