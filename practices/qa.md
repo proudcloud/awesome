@@ -2,15 +2,15 @@
 
 ###What is Testing?
 ####Testing includes the following activities:
-..* Planning and control.
-..* Choosing test conditions.
-..* Designing and executing test cases.
-..* Checking results.
-..* Evaluating exit criteria.
-..* Reporting on the testing process and system under test.
-..* Finalizing or completing closure activities after a test phase has been completed.
-..* Reviewing documents (including source code).
-..* Conducting static analysis.
+* Planning and control.
+* Choosing test conditions.
+* Designing and executing test cases.
+* Checking results.
+* Evaluating exit criteria.
+* Reporting on the testing process and system under test.
+* Finalizing or completing closure activities after a test phase has been completed.
+* Reviewing documents (including source code).
+* Conducting static analysis.
 
 ###Why is Testing necessary?
     Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
