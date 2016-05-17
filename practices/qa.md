@@ -1,18 +1,18 @@
-#H1 QA Guidelines
+## QA Guidelines
 
-What is Testing?
-    Testing includes the following activities:
-        a. Planning and control.
-        b. Choosing test conditions.
-        c. Designing and executing test cases.
-        d. Checking results.
-        e. Evaluating exit criteria.
-        f. Reporting on the testing process and system under test.
-        g. Finalizing or completing closure activities after a test phase has been completed.
-        h. Reviewing documents (including source code).
-        i. Conducting static analysis.
+###What is Testing?
+####Testing includes the following activities:
+..* Planning and control.
+..* Choosing test conditions.
+..* Designing and executing test cases.
+..* Checking results.
+..* Evaluating exit criteria.
+..* Reporting on the testing process and system under test.
+..* Finalizing or completing closure activities after a test phase has been completed.
+..* Reviewing documents (including source code).
+..* Conducting static analysis.
 
-Why is Testing necessary?
+###Why is Testing necessary?
     Humans are fallible. We are prone to errors and we can be affected by time pressure, complex code, complex infrastructure, changing technologies, and/or many system interactions. So testing can have the following objectives:
         a. Finding defects.
         b. Gaining confidence about the level of quality of the product.
@@ -28,7 +28,7 @@ Why is Testing necessary?
         c. Maintenance and Regression Testing.
             - This includes testing to ensure that no new defects have been introduced during development of changes.
 
-Seven Testing Principles
+###Seven Testing Principles
     These are general guidelines for testing.
         1. Testing shows presence of defects
             - Testing can show that defects are present, but cannot prove that there are no defects. Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, it is not a proof of correctness.
@@ -45,7 +45,7 @@ Seven Testing Principles
         7. Absence-of-errors fallacy.
             - Finding and fixing defects does not help if the system built is unusable and does not fulfill the user's’ needs and expectations.
 
-Fundamental Test Process
+###Fundamental Test Process
     Test execution is the most visible part of testing. But to be effective and efficient, test plans should include time to be spent on planning the tests, designing test cases, preparing for execution and evaluation of results. The fundamental test process is consisted of the following main activities:
         a. Test planning and control.
         b. Test analysis and design.
