@@ -22,10 +22,10 @@
 
 ## GIF recorders
 
-- [LICECap](http://www.cockos.com/licecap/) (free, OSX, Win) - records to .gif locally
+- [LICEcap](http://www.cockos.com/licecap/) (free, OSX, Win) - records to .gif locally
 - [Gyazo GIF](https://gyazo.com/) (freemium, OSX, Win, Linux) - records and uploads to the cloud. hosting limited to 10 images/month ($3.99/mo to unlock)
 - [Recordit](http://recordit.co/) (freemium, OSX, Win) - records and uploads to the cloud. unlock private recordings and higher FPS with the pro version for $29
-- [CloudApp](https://www.getcloudapp.com/) - limited to 10 files ($10/mo to unlock)
+- [CloudApp](https://www.getcloudapp.com/) (freemium, OSX) - limited to 10 files ($10/mo to unlock)
 
 ## OSX (Design)
 
