@@ -10,7 +10,7 @@ CSS and JS:
 
 - Prefer [sass-rails](https://github.com/rails/sass-rails) as a preprocessor
 - Prefer [autoprefixer-rails](https://github.com/ai/autoprefixer-rails) for vendor prefixes
-- Prefer [haml](http://haml.info/) for templating
+- Prefer [haml](http://haml.info/) for templating (via [hamlit-rails](https://rubygems.org/gems/hamlit-rails))
 - Prefer [bootstrap](http://getbootstrap.com) if a CSS framework is needed
 - Prefer [bootstrap-sass](https://github.com/twbs/bootstrap-sass) for Bootstrap + Rails integration
 - Prefer [rails-assets.org](https://rails-assets.org) for managing 3rd-party JS/CSS
