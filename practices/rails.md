@@ -52,7 +52,7 @@ Avoid:
 - Avoid [bower-rails](https://rubygems.org/gems/bower-rails). Heroku setup can be a pain, and rails-assets is a better choice nowadays.
 - Avoid configuration gems like [figaro](http://rubygems.org/gems/figaro), [dotenv](http://rubygems.org/gems/dotenv), etc. Rails 4.1 should render them useless now.
 - Avoid [teaspoon](https://github.com/modeset/teaspoon). It has more boilerplate to setup, and doesn't sandbox your test DOM unlike konacha. Use konacha instead
-- Avoid [Enums](http://api.rubyonrails.org/v4.1/classes/ActiveRecord/Enum.html) for values that are likely to change.
+- Avoid [Enums](http://api.rubyonrails.org/v4.1/classes/ActiveRecord/Enum.html). They can cause non-obvious problems with queries ([1](https://hackhands.com/ruby-on-enums-queries-and-rails-4-1/#queries-on-enums), [2](https://bendyworks.com/rails-enum-sharp-knife/), [3](https://github.com/proudcloud/awesome/pull/56#issuecomment-219984596)). Use strings instead.
 
 ## Also see
 
