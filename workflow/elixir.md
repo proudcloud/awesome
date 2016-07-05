@@ -101,7 +101,7 @@ All of these steps are optional, but recommended.
   cd ~
   echo 'erlang 19.0'   > .tool-versions
   echo 'nodejs 6.2.2' >> .tool-versions
-  echo 'elixir 1.3.0' >> .tool-versions
+  echo 'elixir 1.3.1' >> .tool-versions
   asdf install
   ```
 
