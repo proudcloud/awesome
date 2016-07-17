@@ -27,6 +27,7 @@ Must-read books, articles and must-watch videos for every [Proudcloud] developer
 Guides on setting up common development environments.
 
 - [Android on OSX](workflow/android-osx.md)
+- [Elixir](workflow/elixir.md)
 - [Heroku](workflow/heroku.md)
 - [Rails on OSX](workflow/rails-osx.md)
 - [iOS](workflow/ios.md)
