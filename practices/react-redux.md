@@ -56,3 +56,24 @@ export default connect(
   { namedFunction }
 )(Container)
 ```
+
+## Configuring the Store
+- The `compose` function allows you to add different middlewares such as `redux-thunk` and `redux-devtools`
+
+```
+export default configureStore(initialState = {}, environment) => {
+  const store = createStore(
+    rootReducer,
+    initialState,
+    compose(
+      applyMiddleware(thunk)
+    )
+  )
+}
+```
+Here are some middlewares you might want to check out:
+- [redux-thunk](https://github.com/gaearon/redux-thunk)
+- [redux-saga](https://github.com/yelouafi/redux-saga)
+- [redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware)
+
+You may want to also read this: http://stackoverflow.com/questions/36577510/what-is-the-difference-between-redux-thunk-and-redux-promise
