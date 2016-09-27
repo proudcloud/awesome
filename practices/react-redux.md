@@ -10,7 +10,7 @@
 - This also allows reusable components through other applications such as `chat` and `filtering`
 ```
 react
-└───(Main Component Name)
+└───(Feature)
 │   └───components
 │   └───containers
 │   │   actions.jsx
@@ -27,7 +27,7 @@ react
 
 ## `mapStateToProps`, `mapDispatchToProps` and `connect`
 - There are some examples in the `redux` repository that show you can use a function for getting the object needed for `mapStateToProps`. We recommend that you use this example below for verbosity.
-```
+```js
 const mapStateToProps = (state) => {
   return {
     component: state.component.attribute
@@ -37,7 +37,7 @@ const mapStateToProps = (state) => {
 
 - `mapDispatchToProps` can be omitted unless you want to.  This can be written like this.
 
-```
+```js
 const mapDispatchToProps = (dispatch) => {
   return {
     function:  () => { namedFunction() }
@@ -50,7 +50,7 @@ export default connect(
 )(Container)
 ```
 or
-```
+```js
 export default connect(
   mapStateToProps,
   { namedFunction }
@@ -60,7 +60,7 @@ export default connect(
 ## Configuring the Store
 - The `compose` function allows you to add different middlewares such as `redux-thunk` and `redux-devtools`
 
-```
+```js
 export default configureStore(initialState = {}, environment) => {
   const store = createStore(
     rootReducer,
