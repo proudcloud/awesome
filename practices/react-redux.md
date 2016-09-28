@@ -5,28 +5,33 @@
 - Components are dumb and reliant to containers for their data. Since they are relaint to containers, they can be reused in other containers.
 - [Making your app fast with high-performance components by Jason Bonta](https://youtu.be/KYzlpRvWZ6c?t=22m49s)
 
-## Proposed File Structure
-- The suggested file structure is based on @adimasuhid's idea. If you have a directory and it was removed, the app should be still functional or needs minimal changes to make it work.
-- This also allows reusable components through other applications such as `chat` and `filtering`
+## Suggested File structure
+
+The suggested file structure is based on @adimasuhid's idea. If you have a directory and it was removed, the app should be still functional or needs minimal changes to make it work.
+
+This also allows reusable features through other applications such as `chat` and `filtering`.
+
 ```
 react
 └───(Feature)
 │   └───components
 │   └───containers
-│   │   actions.jsx
+│   │   actions.jsx            - action creator functions
 │   │   actionTypes.jsx
 │   │   apiWrappers.jsx
-│   │   reducer.jsx
-│   │   propTypes.jsx
+│   │   reducer.jsx            - reducer to be used in the store
+│   │   propTypes.jsx          - reusable proptypes
 └───(Shared Components)
-└───App.jsx
-└───configureStore.jsx
+└───App.jsx                    - main entrypoint
+└───configureStore.jsx         - store builder
 └───DevTools.jsx
 └───rootReducer.jsx
 ```
 
 ## `mapStateToProps`, `mapDispatchToProps` and `connect`
-- There are some examples in the `redux` repository that show you can use a function for getting the object needed for `mapStateToProps`. We recommend that you use this example below for verbosity.
+
+There are some examples in the `redux` repository that show you can use a function for getting the object needed for `mapStateToProps`. We recommend that you use this example below for verbosity.
+
 ```js
 const mapStateToProps = (state) => {
   return {
@@ -35,7 +40,7 @@ const mapStateToProps = (state) => {
 }
 ```
 
-- `mapDispatchToProps` can be omitted unless you want to.  This can be written like this.
+`mapDispatchToProps` can be omitted unless you want to.  It can be written like this:
 
 ```js
 const mapDispatchToProps = (dispatch) => {
@@ -49,7 +54,9 @@ export default connect(
   mapDispatchToProps
 )(Container)
 ```
+
 or
+
 ```js
 export default connect(
   mapStateToProps,
@@ -58,7 +65,8 @@ export default connect(
 ```
 
 ## Configuring the Store
-- The `compose` function allows you to add different middlewares such as `redux-thunk` and `redux-devtools`
+
+The `compose` function allows you to add different middlewares such as `redux-thunk` and `redux-devtools`.
 
 ```js
 export default configureStore(initialState = {}, environment) => {
@@ -71,9 +79,10 @@ export default configureStore(initialState = {}, environment) => {
   )
 }
 ```
+
 Here are some middlewares you might want to check out:
 - [redux-thunk](https://github.com/gaearon/redux-thunk)
 - [redux-saga](https://github.com/yelouafi/redux-saga)
 - [redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware)
 
-You may want to also read this: http://stackoverflow.com/questions/36577510/what-is-the-difference-between-redux-thunk-and-redux-promise
+See [this StackOverflow answer](http://stackoverflow.com/questions/36577510/what-is-the-difference-between-redux-thunk-and-redux-promise) on the difference between redux-thunk and redux-promise.
