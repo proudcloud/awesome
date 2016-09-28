@@ -1,9 +1,13 @@
 # React Redux
 
-## Containers vs Components
+## Containers vs. Components
+
+Separate your containers from your components.
+
 - Containers are smart components. They do data-fetching and pass it to components.
 - Components are dumb and reliant to containers for their data. Since they are relaint to containers, they can be reused in other containers.
-- [Making your app fast with high-performance components by Jason Bonta](https://youtu.be/KYzlpRvWZ6c?t=22m49s)
+
+See: [Making your app fast with high-performance components by Jason Bonta](https://youtu.be/KYzlpRvWZ6c?t=22m49s)
 
 ## Suggested File structure
 
