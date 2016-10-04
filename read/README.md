@@ -1,4 +1,4 @@
- Required reading
+# Required reading
 
 This is a curated listing of all must-read resources for the builders of Proudcloud.
 
