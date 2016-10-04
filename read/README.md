@@ -1,4 +1,4 @@
-# Required reading
+ Required reading
 
 This is a curated listing of all must-read resources for the builders of Proudcloud.
 
@@ -76,13 +76,6 @@ To add a link, add an item on top (newest first). Feel free to create sections a
 
 ## Testing
 - [Economy of Tests](http://stakeholderwhisperer.com/posts/2015/1/economy-of-tests)
-
-## Miscellaneous
-
-- [Panda (App, Chrome Extension)](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
-- [WhatFont (Chrome Extension)](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Easiest to identify fonts in web pages
-- [Window Resizer (Chrome Extension)](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - Resize browser window to emulate various screen resolutions
-- [Raindrop (Chrome Extension)](http://raindrop.io/extension/) - for bookmarks
 
 ## License
 
