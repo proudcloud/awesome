@@ -34,7 +34,9 @@
 
 ## Chrome extensions
 
-- ...
+- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - Vim on Chrome
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - Format JSON responses
+- [EyeDropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) - Colorpicker 
 
 ## How to add to this list
 
