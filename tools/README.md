@@ -26,6 +26,7 @@
 - [Gyazo GIF](https://gyazo.com/) (freemium, OSX, Win, Linux) - records and uploads to the cloud. hosting limited to 10 images/month ($3.99/mo to unlock)
 - [Recordit](http://recordit.co/) (freemium, OSX, Win) - records and uploads to the cloud. unlock private recordings and higher FPS with the pro version for $29
 - [CloudApp](https://www.getcloudapp.com/) (freemium, OSX) - limited to 10 files ($10/mo to unlock)
+- [Claquette](https://www.peakstep.com/claquette/) $9.99 with addons for more export options
 
 ## OSX (Design)
 
@@ -37,6 +38,7 @@
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - Vim on Chrome
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - Format JSON responses
 - [EyeDropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) - Colorpicker 
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Identify fonts on web pages
 
 ## How to add to this list
 
