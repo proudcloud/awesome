@@ -31,16 +31,9 @@ All of these steps are optional, but recommended.
 * __Create a `postgres` user.__ Use PostgreSQL's `createuser` to create a new user. Give it a password `postgres`.
 
   ```sh
-  $ createuser postgres -P
+  $ createuser --superuser postgres -P
     Enter password for new role:
     Enter it again:
-  ```
-
-* __Give it permissions.__ Use the `psql` utility to run: `alter role postgres createdb;`. This gives the `postgres` user DB creation privileges.
-
-  ```sh
-  $ psql -c "alter role postgres createdb;"
-  ALTER ROLE
   ```
 
 <br>
