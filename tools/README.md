@@ -36,11 +36,14 @@
 
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - Vim on Chrome
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - Format JSON responses
-- [EyeDropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) - Colorpicker 
+- [EyeDropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) - Colorpicker
 - [Panda](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
+- [Muzli](https://muz.li/) - Newsfeed Dashboard, Better than Panda
 - [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Easiest to identify fonts in web pages
 - [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - Resize browser window to emulate various screen resolutions
 - [Raindrop](http://raindrop.io/extension/) - For bookmarks
+- [Type Sample](http://www.typesample.com/) - Tool for identifying and sampling web fonts.
+- [CSS Peeper](https://csspeeper.com/) - Smart CSS viewer tailored for Designers.
 
 ## How to add to this list
 
