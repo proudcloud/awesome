@@ -19,6 +19,7 @@
 - [Sketch Toolbox](https://github.com/buzzfeed/Sketch-Toolbox) - installs sketch plugins for you
 - [Invision Craft](https://www.invisionapp.com/craft) - placeholder text and more
 - [Clipboard Fill](https://github.com/ScottSavarie/Clipboard-Fill) - paste images as a fill
+- [Runner](http://sketchrunner.com/) - Runner helps you to get around Sketch quicker by giving you an intuitive interface to supercharge your daily workflow. 
 
 ## GIF recorders
 
