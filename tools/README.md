@@ -38,7 +38,10 @@
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - Vim on Chrome
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - Format JSON responses
 - [EyeDropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) - Colorpicker 
-- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Identify fonts on web pages
+- [Panda](https://usepanda.com/) - Newsfeed Dashboard for Design and Development
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Easiest to identify fonts in web pages
+- [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - Resize browser window to emulate various screen resolutions
+- [Raindrop](http://raindrop.io/extension/) - For bookmarks
 
 ## How to add to this list
 

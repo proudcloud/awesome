@@ -31,16 +31,9 @@ All of these steps are optional, but recommended.
 * __Create a `postgres` user.__ Use PostgreSQL's `createuser` to create a new user. Give it a password `postgres`.
 
   ```sh
-  $ createuser postgres -P
+  $ createuser --superuser postgres -P
     Enter password for new role:
     Enter it again:
-  ```
-
-* __Give it permissions.__ Use the `psql` utility to run: `alter role postgres createdb;`. This gives the `postgres` user DB creation privileges.
-
-  ```sh
-  $ psql -c "alter role postgres createdb;"
-  ALTER ROLE
   ```
 
 <br>
@@ -97,11 +90,12 @@ All of these steps are optional, but recommended.
 * To configure "global" versions in asdf, create `~/.tool-versions`. Here's a fair starting point.
 
   ```sh
-  # These are stable versions as of July 2016
+  # These are stable versions as of April 2017.
+  # To check newer versions, use: `asdf list-all nodejs`
   cd ~
-  echo 'erlang 19.0'   > .tool-versions
-  echo 'nodejs 6.2.2' >> .tool-versions
-  echo 'elixir 1.3.1' >> .tool-versions
+  echo 'erlang 19.2'   >> .tool-versions
+  echo 'nodejs 6.10.2' >> .tool-versions
+  echo 'elixir 1.4.2'  >> .tool-versions
   asdf install
   ```
 
